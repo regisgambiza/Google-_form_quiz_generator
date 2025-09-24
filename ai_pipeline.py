@@ -294,7 +294,7 @@ def generate_questions_simple(topics, num_questions, difficulty, question_type_c
                     break
 
                 prompt = f"""
-Generate {per_batch} {qtype} math questions for Thai students in Grade 7 or 8.
+Generate {per_batch} questions of type {qtype} for Thai students in Grade 7 or 8.
 
 CRITICAL REQUIREMENTS:
 - ENGLISH LEVEL: Use VERY SIMPLE English suitable for ESL learners (Grade 7-8 Thailand)
@@ -361,14 +361,21 @@ Return JSON array with {per_batch} question objects containing: question, type, 
                         question["difficulty"] = difficulty  # Enforce GUI difficulty
                         questions.append(question)
                     else:
-                        refined = refine_question(question, critique, topic, subtopic, difficulty, qtype)
-                        api_call_count += 1
-                        if refined and is_valid_question(refined):
-                            refined = normalize_question(refined, allowed_types=question_type_counts.keys(), gui_difficulty=difficulty)
-                            if refined:
-                                questions.append(refined)
+    # Try refining up to 3 times before giving up
+                        refined = None
+                        for attempt in range(3):
+                            refined = refine_question(question, critique, topic, subtopic, difficulty, qtype)
+                            api_call_count += 1
+                            if refined and is_valid_question(refined):
+                                refined = normalize_question(refined, allowed_types=question_type_counts.keys(), gui_difficulty=difficulty)
+                                if refined:
+                                    questions.append(refined)
+                                    break
+                        if not refined:
+                            log("WARNING", f"Refinement failed after 3 attempts for question: {question['question'][:50]}...")
 
-        retries += 1
+
+                            retries += 1
 
     if len(questions) < num_questions:
         log("WARNING", f"Reached max retries ({max_retries}) but only got {len(questions)}/{num_questions} questions")

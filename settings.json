@@ -2,12 +2,12 @@
   "grade": "Grade 7",
   "topics": {
     "Chapter 1: Factors": {
-      "subtopics": [
-        "1.1 Divisibility tests"
-      ]
+      "subtopics": []
     },
     "Chapter 2: 2D and 3D shapes": {
-      "subtopics": []
+      "subtopics": [
+        "2.1 Congruency"
+      ]
     },
     "Chapter 3: Collecting data": {
       "subtopics": []
@@ -89,6 +89,10 @@
   "activity_type": "Class Activity",
   "export_format": "Google Forms",
   "question_types": {
-    "MCQ": 1
+    "MCQ": 1,
+    "Short Answer": 1,
+    "True/False": 1,
+    "Fill-in-the-Blank": 1,
+    "Numerical": 1
   }
 }

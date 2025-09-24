@@ -1,58 +1,63 @@
 [
   {
-    "answer": "C. Survey",
+    "answer": "They are congruent.",
     "difficulty": "Easy",
     "options": [
-      "A. Observation",
-      "B. Experiment",
-      "C. Survey",
-      "D. Interview"
+      "They are congruent.",
+      "They have different areas.",
+      "They have different perimeters.",
+      "They are not congruent."
     ],
-    "question": "In class there are 18 students. The teacher wants to find out how many of them bring a snack from home every day. The teacher writes a short list and asks each student one by one. Which data collection method is used?",
-    "subtopic": "Survey",
-    "topic": "Data Collection Methods",
+    "question": "A rectangle has sides 6 cm and 4 cm. Another rectangle has sides 4 cm and 6 cm. Which statement is true about these two rectangles?",
+    "subtopic": "Congruency",
+    "topic": "2D and 3D shapes",
     "type": "MCQ"
   },
   {
-    "answer": "B. Questionnaire",
+    "answer": "Yes, they are congruent because they have the same side lengths and can be rotated to match each other.",
     "difficulty": "Easy",
-    "options": [
-      "A. Random sampling",
-      "B. Questionnaire",
-      "C. Field experiment",
-      "D. Direct observation"
-    ],
-    "question": "Siang has 20 classmates. She gives each of them a small card and asks them to write how many times they visit the local market in one week. Which method does Siang use to collect the data?",
-    "subtopic": "Questionnaire",
-    "topic": "Data Collection Methods",
-    "type": "MCQ"
+    "options": null,
+    "question": "At the market, a vendor sells two rectangular boxes of mangoes. Box A has a length of 8\u202fcm and a width of 5\u202fcm. Box B has a length of 5\u202fcm and a width of 8\u202fcm. Are the two boxes congruent? Explain why or why not in one short sentence.",
+    "subtopic": "Congruency",
+    "topic": "2D and 3D shapes",
+    "type": "Short Answer"
   },
   {
-    "answer": "Sample",
+    "answer": "True",
     "difficulty": "Easy",
     "options": [
-      "Population",
-      "Sample",
-      "Answer sheet",
-      "Question list"
+      "True",
+      "False"
     ],
-    "question": "There are 18 students in a Thai class. The teacher wants to know how many students like mango ice cream. If the teacher asks 6 students, what is this?",
-    "subtopic": "Choosing a sample",
-    "topic": "Collecting data",
-    "type": "MCQ"
+    "question": "Two triangles on the school board have sides 3\u202fcm, 4\u202fcm, 5\u202fcm and 4\u202fcm, 3\u202fcm, 5\u202fcm. These two triangles are congruent.",
+    "subtopic": "Congruency",
+    "topic": "2D and 3D shapes",
+    "type": "True/False"
   },
   {
-    "answer": "It is a simple random sample",
+    "answer": "congruent",
     "difficulty": "Easy",
     "options": [
-      "It is a population survey",
-      "It is a convenience sample",
-      "It is a simple random sample",
-      "It is a biased sample"
+      "congruent",
+      "similar",
+      "parallel",
+      "perpendicular"
     ],
-    "question": "In a market there are 8 stalls selling mangoes. A student wants to find the average price of the mangoes. He asks 3 stalls at random. Which statement is correct?",
-    "subtopic": "Choosing a sample",
-    "topic": "Collecting data",
-    "type": "MCQ"
+    "question": "In the classroom, the teacher draws triangle ABC with sides 5\u202fcm, 5\u202fcm, 5\u202fcm. The teacher also draws triangle DEF with sides 5\u202fcm, 5\u202fcm, 5\u202fcm. These two triangles are ________.",
+    "subtopic": "Congruency",
+    "topic": "2D and 3D shapes",
+    "type": "Fill-in-the-Blank"
+  },
+  {
+    "answer": "Yes",
+    "difficulty": "Easy",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "question": "At school, the teacher draws two circles on the chalkboard. Circle A has a radius of 5 cm. Circle B also has a radius of 5 cm. Are the two circles congruent? Choose one answer:",
+    "subtopic": "Congruency",
+    "topic": "Geometry",
+    "type": "Numerical"
   }
 ]

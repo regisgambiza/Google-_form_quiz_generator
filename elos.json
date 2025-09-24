@@ -1,0 +1,121 @@
+{
+  "Grade 7": {
+    "Numbers and Operations": {
+      "Standard M1.1: Understanding diverse methods of presenting numbers and their application in real life": [
+        "1.1.1. Specify or give examples and compare added integral numbers, subtracted integral numbers, 0, fractions and decimals.",
+        "1.1.2. Have concept of real numbers expressed in exponential notation with integer indices and write numbers in scientific notation."
+      ],
+      "Standard M1.2: Understanding results of operations of numbers, relationships of operations, and application of operations for problem-solving": [
+        "1.2.1. Add, subtract, multiply and divide integral numbers for the purpose of problem-solving; be aware of validity of the answers; explain the results obtained from the addition, subtraction, multiplication, and division, and explain the relationship between addition and subtraction, and between multiplication and division of integral numbers.",
+        "1.2.2. Add, subtract, multiply and divide fractions and decimals for the purpose of problem-solving; be aware of validity of the answers; explain the results of the addition, subtraction, multiplication and division; and explain relationships between addition and subtraction, and between multiplication and division of fractions and decimals.",
+        "1.2.3. Explain results of expression in exponential notation of integral numbers, ratios and decimals.",
+        "1.2.4. Multiply and divide real numbers in the form of exponents with the same bases and integer indices."
+      ],
+      "Standard M1.3: Use of estimation in calculation and problem-solving": [
+        "1.3.1. Use estimation appropriately in various situations, as well as for considering validity of answers reached through calculation."
+      ],
+      "Standard M1.4: Understanding of numerical system and application of numerical properties": [
+        "1.4.1. Apply knowledge and properties of integers for problem-solving."
+      ]
+    },
+    "Geometry": {
+      "Standard M3.1: Ability to explain and analyse two-dimensional and three-dimensional geometric figures": [
+        "3.1.1. Construct and explain steps of basic geometric construction.",
+        "3.1.2. Construct two-dimensional geometric figures by using basic geometric construction, and explain steps of construction without emphasizing proof.",
+        "3.1.3. Search for, observe and project about geometric properties.",
+        "3.1.4. Explain characteristics of three-dimensional geometric figures from a given image.",
+        "3.1.5. Identify two-dimensional images from front view and side view of a given three-dimensional geometric figure.",
+        "3.1.6. Draw or create a three-dimensional figure from a cube, when given two-dimensional image from front view, side view and top view."
+      ]
+    },
+    "Algebra": {
+      "Standard M4.1: Understanding and ability to analyse pattern, relation and function": [
+        "4.1.1. Analyse and explain relations of a given pattern."
+      ],
+      "Standard M4.2: Ability to apply algebraic expressions, equations, inequalities, graphs and other mathematical models to represent various situations, as well as interpretation and application for problem-solving": [
+        "4.2.1. Solve simple linear equations with one variable.",
+        "4.2.2. Write linear equations with one variable from simple situations or problems.",
+        "4.2.3. Solve problems involving simple linear equations with one variable, as well as be aware of the validity of the answer.",
+        "4.2.4. Draw a graph on the plane of the rectangular coordinate system showing the relationship of the two sets of quantities given.",
+        "4.2.5. Read and interpret the meaning of the graph on the plane of the rectangular coordinate system given."
+      ]
+    },
+    "Data Analysis and Probability": {
+      "Standard M5.2: Application of statistical methodology and knowledge of probability for valid estimation": [
+        "5.2.1. Can explain which, among events described, are more likely to happen."
+      ]
+    },
+    "Mathematical Skills and Processes": {
+      "Standard M6.1: Capacity for problem-solving, reasoning, and communication; communication and presentation of mathematical concepts; linking various bodies of mathematical knowledge and linking mathematics with other disciplines; and attaining ability for creative thinking": [
+        "6.1.1. Apply diverse methods for problem-solving.",
+        "6.1.2. Appropriately apply mathematical and technological knowledge, skills and processes for problem-solving in various situations.",
+        "6.1.3. Suitably provide reasoning for decision-making and appropriately present the conclusions reached.",
+        "6.1.4. Accurately and succinctly use mathematical language and symbols for communication of concepts and presentation.",
+        "6.1.5. Link various bodies of mathematical knowledge, and link mathematical knowledge, principles and processes with those of other disciplines.",
+        "6.1.6. Attain ability for creative thinking."
+      ]
+    }
+  },
+  "Grade 8": {
+    "Numbers and Operations": {
+      "Standard M1.1: Understanding diverse methods of presenting numbers and their application in real life": [
+        "1.1.1. Write fractions in the form of decimals and write circulating decimals in form of fractions.",
+        "1.1.2. Distribute prescribed real numbers and give examples of rational and irrational numbers.",
+        "1.1.3. Explain and specify square roots and cube roots of real numbers.",
+        "1.1.4. Apply knowledge of ratio, fraction and percentage to solve problems."
+      ],
+      "Standard M1.2: Understanding results of operations of numbers, relationships of operations, and application of operations for problem-solving": [
+        "1.2.1. Find square root and cube root of integral numbers by separating factors for the purpose of problem-solving as well as be aware of validity of the answers.",
+        "1.2.2. Explain results of finding square root and cube root of integral numbers, fractions and decimals, and express the relationship between exponents and roots of real numbers."
+      ],
+      "Standard M1.3: Use of estimation in calculation and problem-solving": [
+        "1.3.1. Find estimates of square root and cube root of real numbers, which can be applied for problem-solving, as well as be aware as validity of the answers."
+      ],
+      "Standard M1.4: Understanding of numerical system and application of numerical properties": [
+        "1.4.1. Explain relationships between real numbers, rational numbers, and irrational numbers."
+      ]
+    },
+    "Measurement": {
+      "Standard M2.1: Understanding the basics of measurement; ability to measure and estimate the size of objects to be measured": [
+        "2.1.1. Compare measuring units for length and area of the same and different systems and choose appropriate measuring units.",
+        "2.1.2. Appropriately estimate time, distance, area, volume and weight, and explain the method used for estimation.",
+        "2.1.3. Appropriately choose estimation for measurement in various situations."
+      ],
+      "Standard M2.2: Solving measurement problems": [
+        "2.2.1. Apply knowledge of length and area for problem-solving in various situations."
+      ]
+    },
+    "Geometry": {
+      "Standard M3.2: Ability for visualization, spatial reasoning and application of geometric models for problem-solving": [
+        "3.2.1. Use properties of congruence of triangles and those of parallels for reasoning and problem-solving.",
+        "3.2.2. Use Pythagoras’ Theorem and converse for reasoning and problem-solving.",
+        "3.2.3. Understand and apply geometric transformation through translation, reflection and rotation.",
+        "3.2.4. Identify images from translation, reflection and rotation of models, and explain the method of obtaining the images when given such models and images."
+      ]
+    },
+    "Algebra": {
+      "Standard M4.2: Ability to apply algebraic expressions, equations, inequalities, graphs and other mathematical models to represent various situations, as well as interpretation and application for problem-solving": [
+        "4.2.1. Solve problems involving linear equations with one variable, and be aware of the validity of the answer.",
+        "4.2.2. Find coordinates of points and explain characteristics of geometric figures obtained from translation, reflection and rotation on the plane of the rectangular coordinate system."
+      ]
+    },
+    "Data Analysis and Probability": {
+      "Standard M5.1: Understanding and ability to apply statistical methodology for data analysis": [
+        "5.1.1. Read and present data by using pie-charts."
+      ],
+      "Standard M5.2: Application of statistical methodology and knowledge of probability for valid estimation": [
+        "5.2.1. Can explain that, among events described: which will definitely happen; which will definitely not happen; which are more likely to happen."
+      ]
+    },
+    "Mathematical Skills and Processes": {
+      "Standard M6.1: Capacity for problem-solving, reasoning, and communication; communication and presentation of mathematical concepts; linking various bodies of mathematical knowledge and linking mathematics with other disciplines; and attaining ability for creative thinking": [
+        "6.1.1. Apply diverse methods for problem-solving.",
+        "6.1.2. Appropriately apply mathematical and technological knowledge, skills and processes for problem-solving in various situations.",
+        "6.1.3. Suitably provide reasoning for decision-making and appropriately present the conclusions reached.",
+        "6.1.4. Accurately and succinctly use mathematical language and symbols for communication, communication of concepts and presentation.",
+        "6.1.5. Link various bodies of mathematical knowledge, and link mathematical knowledge, principles and processes with those of other disciplines.",
+        "6.1.6. Attain ability for creative thinking."
+      ]
+    }
+  }
+}

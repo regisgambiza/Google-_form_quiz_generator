@@ -243,7 +243,8 @@ class QuizGeneratorGUI(QMainWindow):
                 topics_dict[topic] = {"subtopics": []}
             if subtopic:
                 topics_dict[topic]["subtopics"].append(subtopic)
-
+        
+        log("INFO", f"Passing question types from GUI: {question_types}")
         self.current_thread = GenerationThread(
             topics_dict, num_questions, difficulty, question_types, activity_type, task
         )
