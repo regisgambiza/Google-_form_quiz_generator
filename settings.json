@@ -1,0 +1,94 @@
+{
+  "grade": "Grade 7",
+  "topics": {
+    "Chapter 1: Factors": {
+      "subtopics": [
+        "1.1 Divisibility tests"
+      ]
+    },
+    "Chapter 2: 2D and 3D shapes": {
+      "subtopics": []
+    },
+    "Chapter 3: Collecting data": {
+      "subtopics": []
+    },
+    "Chapter 4: Negative numbers and indices": {
+      "subtopics": []
+    },
+    "Chapter 5: Expressions": {
+      "subtopics": []
+    },
+    "Chapter 6: Symmetry": {
+      "subtopics": []
+    },
+    "Chapter 7: Rounding and decimals": {
+      "subtopics": []
+    },
+    "Chapter 8: Presenting and interpreting data 1": {
+      "subtopics": []
+    },
+    "Chapter 9: Fractions": {
+      "subtopics": []
+    },
+    "Chapter 10: Manipulating expressions": {
+      "subtopics": []
+    },
+    "Chapter 11: Angles": {
+      "subtopics": []
+    },
+    "Chapter 12: Measures of average and spread": {
+      "subtopics": []
+    },
+    "Chapter 13: Calculations": {
+      "subtopics": []
+    },
+    "Chapter 14: Functions and formulae": {
+      "subtopics": []
+    },
+    "Chapter 15: Area and volume": {
+      "subtopics": []
+    },
+    "Chapter 16: Fractions, decimals and percentages": {
+      "subtopics": []
+    },
+    "Chapter 17: Probability 1": {
+      "subtopics": []
+    },
+    "Chapter 18: Transformations": {
+      "subtopics": []
+    },
+    "Chapter 19: Percentages": {
+      "subtopics": []
+    },
+    "Chapter 20: Presenting and interpreting data 2": {
+      "subtopics": []
+    },
+    "Chapter 21: Equations and inequalities": {
+      "subtopics": []
+    },
+    "Chapter 22: Ratio and proportion": {
+      "subtopics": []
+    },
+    "Chapter 23: Probability 2": {
+      "subtopics": []
+    },
+    "Chapter 24: Sequences": {
+      "subtopics": []
+    },
+    "Chapter 25: Accurate drawing": {
+      "subtopics": []
+    },
+    "Chapter 26: Thinking statistically": {
+      "subtopics": []
+    },
+    "Chapter 27: Relationships and graphs": {
+      "subtopics": []
+    }
+  },
+  "difficulty": "Easy",
+  "activity_type": "Class Activity",
+  "export_format": "Google Forms",
+  "question_types": {
+    "MCQ": 1
+  }
+}

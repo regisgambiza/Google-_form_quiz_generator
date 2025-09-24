@@ -1,0 +1,14 @@
+{
+  "grade": "Grade 7",
+  "topics": {},
+  "difficulty": "Medium",
+  "activity_type": "Class Activity",
+  "question_types": {
+    "MCQ": 6,
+    "Short Answer": 6,
+    "True/False": 6,
+    "Fill-in-the-Blank": 6,
+    "Numerical": 6
+  },
+  "export_format": "Google Forms"
+}

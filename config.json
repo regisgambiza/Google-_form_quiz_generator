@@ -1,0 +1,9 @@
+{
+  "generator_model": "gpt-oss:20b",
+  "critic_model": "deepseek-r1:14b",
+  "ai_models": [
+    "deepseek-r1:14b",
+    "gpt-oss:20b",
+    "gemma2:9b"
+  ]
+}

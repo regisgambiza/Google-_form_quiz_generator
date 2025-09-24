@@ -1,0 +1,58 @@
+[
+  {
+    "answer": "C. Survey",
+    "difficulty": "Easy",
+    "options": [
+      "A. Observation",
+      "B. Experiment",
+      "C. Survey",
+      "D. Interview"
+    ],
+    "question": "In class there are 18 students. The teacher wants to find out how many of them bring a snack from home every day. The teacher writes a short list and asks each student one by one. Which data collection method is used?",
+    "subtopic": "Survey",
+    "topic": "Data Collection Methods",
+    "type": "MCQ"
+  },
+  {
+    "answer": "B. Questionnaire",
+    "difficulty": "Easy",
+    "options": [
+      "A. Random sampling",
+      "B. Questionnaire",
+      "C. Field experiment",
+      "D. Direct observation"
+    ],
+    "question": "Siang has 20 classmates. She gives each of them a small card and asks them to write how many times they visit the local market in one week. Which method does Siang use to collect the data?",
+    "subtopic": "Questionnaire",
+    "topic": "Data Collection Methods",
+    "type": "MCQ"
+  },
+  {
+    "answer": "Sample",
+    "difficulty": "Easy",
+    "options": [
+      "Population",
+      "Sample",
+      "Answer sheet",
+      "Question list"
+    ],
+    "question": "There are 18 students in a Thai class. The teacher wants to know how many students like mango ice cream. If the teacher asks 6 students, what is this?",
+    "subtopic": "Choosing a sample",
+    "topic": "Collecting data",
+    "type": "MCQ"
+  },
+  {
+    "answer": "It is a simple random sample",
+    "difficulty": "Easy",
+    "options": [
+      "It is a population survey",
+      "It is a convenience sample",
+      "It is a simple random sample",
+      "It is a biased sample"
+    ],
+    "question": "In a market there are 8 stalls selling mangoes. A student wants to find the average price of the mangoes. He asks 3 stalls at random. Which statement is correct?",
+    "subtopic": "Choosing a sample",
+    "topic": "Collecting data",
+    "type": "MCQ"
+  }
+]
