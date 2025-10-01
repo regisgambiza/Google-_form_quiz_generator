@@ -5,7 +5,8 @@ from PyQt5.QtWidgets import (
 from PyQt5.QtCore import Qt, QThread, pyqtSignal
 from PyQt5 import uic
 import utils
-import ai_pipeline
+import question_generator
+import question_evaluator
 import export
 import webbrowser
 import json
@@ -70,7 +71,8 @@ class GenerationThread(QThread):
     def run(self):
         log("DEBUG", "GenerationThread.run() started")
         try:
-            quiz = ai_pipeline.generate_questions_simple(
+            # Generate questions
+            quiz = question_generator.generate_questions_simple(
                 self.topics,
                 self.num_questions,
                 self.difficulty,
@@ -79,11 +81,23 @@ class GenerationThread(QThread):
                 title=self.task.get("title", "Generated Quiz"),
                 grade="7"
             )
-            if quiz and "questions" in quiz:
-                log("DEBUG", f"GenerationThread.run() completed with {len(quiz['questions'])} questions")
-                self.generation_complete.emit(quiz["questions"], self.task)
-            else:
-                raise Exception("Quiz generation returned no questions")
+            if not quiz or "questions" not in quiz or not quiz["questions"]:
+                raise Exception("Quiz generation failed: No valid questions returned")
+            # Refine questions
+            topic = list(self.topics.keys())[0] if self.topics else ""
+            try:
+                quiz["questions"] = question_evaluator.evaluate_and_refine_questions(
+                    quiz["questions"],
+                    topic=topic,
+                    difficulty=self.difficulty
+                )
+            except Exception as e:
+                log("WARNING", f"Evaluation failed: {e}. Proceeding with unrefined questions")
+                # Fallback to unrefined questions
+            if not quiz["questions"]:
+                raise Exception("No questions remained after evaluation")
+            log("DEBUG", f"GenerationThread.run() completed with {len(quiz['questions'])} questions")
+            self.generation_complete.emit(quiz["questions"], self.task)
         except Exception as e:
             log("ERROR", f"Error in GenerationThread.run(): {e}")
             import traceback
@@ -124,62 +138,46 @@ class QuizGeneratorGUI(QMainWindow):
         self.questionTable.cellClicked.connect(self.handle_table_click)
         self.exportActivitiesBtn.clicked.connect(self.export_activities)
         if self.gradeCombo.count() > 0 and self.gradeCombo.currentText() != "No Grades Available":
-            self.load_topics(self.gradeCombo.currentText())
-        else:
-            log("WARNING", "No valid grades to load topics")
-            QMessageBox.warning(self, "Warning", "No valid grades found in topics.json.")
-        log("INFO", "QuizGeneratorGUI initialized")
+            self.load_topics()
 
-    def load_topics(self, grade):
-        log("DEBUG", f"Loading topics for grade: {grade}")
+    def load_topics(self):
+        log("DEBUG", "Loading topics")
         self.topicTree.clear()
-        if not grade or grade == "No Grades Available":
-            log("WARNING", "Invalid or empty grade selected")
-            QMessageBox.warning(self, "Warning", "Invalid or empty grade selected.")
-            return
+        grade = self.gradeCombo.currentText()
         try:
             topics_data = utils.load_json("topics.json")
-            grade_data = topics_data.get(grade, {})
-            if not grade_data:
-                log("WARNING", f"No topics found for grade: {grade}")
-                QMessageBox.warning(self, "Warning", f"No topics found for grade {grade}")
-                return
-            for main_topic, topic_info in grade_data.items():
-                subtopics = topic_info.get("subtopics", []) if isinstance(topic_info, dict) else topic_info
-                if not isinstance(subtopics, list):
-                    log("WARNING", f"Invalid subtopics format for topic {main_topic}: {subtopics}")
-                    subtopics = []
-                parent = QTreeWidgetItem(self.topicTree, [main_topic])
+            grade_topics = topics_data.get(grade, {})
+            for main_topic, details in grade_topics.items():
+                parent = QTreeWidgetItem(self.topicTree)
+                parent.setText(0, main_topic)
                 parent.setFlags(parent.flags() | Qt.ItemIsUserCheckable)
                 parent.setCheckState(0, Qt.Unchecked)
-                for subtopic in subtopics:
-                    child = QTreeWidgetItem(parent, [subtopic])
+                for subtopic in details.get("subtopics", []):
+                    child = QTreeWidgetItem(parent)
+                    child.setText(0, subtopic)
                     child.setFlags(child.flags() | Qt.ItemIsUserCheckable)
                     child.setCheckState(0, Qt.Unchecked)
-                if not subtopics:
-                    log("WARNING", f"No subtopics found for topic {main_topic}")
-            self.topicTree.expandAll()
-            log("DEBUG", f"Topics loaded for grade {grade}: {list(grade_data.keys())}")
+            log("DEBUG", f"Loaded topics for grade {grade}")
         except Exception as e:
             log("ERROR", f"Failed to load topics for grade {grade}: {e}")
             QMessageBox.critical(self, "Error", f"Failed to load topics: {e}")
 
     def get_selected_topics(self):
-        topics = {}
+        log("DEBUG", "Getting selected topics")
+        selected = {}
         for i in range(self.topicTree.topLevelItemCount()):
             parent = self.topicTree.topLevelItem(i)
-            main_topic = parent.text(0)
-            subtopics = []
-            for j in range(parent.childCount()):
-                child = parent.child(j)
-                if child.checkState(0) == Qt.Checked:
-                    subtopics.append(child.text(0))
-            if subtopics or parent.checkState(0) == Qt.Checked:
-                topics[main_topic] = {"subtopics": subtopics}
-        log("DEBUG", f"Selected topics: {topics}")
-        return topics
+            if parent.checkState(0) == Qt.Checked:
+                main_topic = parent.text(0)
+                selected[main_topic] = {"subtopics": []}
+                for j in range(parent.childCount()):
+                    child = parent.child(j)
+                    if child.checkState(0) == Qt.Checked:
+                        selected[main_topic]["subtopics"].append(child.text(0))
+        return selected
 
     def get_question_types(self):
+        log("DEBUG", "Getting question types")
         qtypes = {}
         if self.qtypeMCQ.isChecked():
             qtypes["MCQ"] = self.qtypeMCQSpin.value()
@@ -194,33 +192,49 @@ class QuizGeneratorGUI(QMainWindow):
         return qtypes
 
     def add_to_queue(self):
-        log("DEBUG", "Adding task to queue")
-        topics = self.get_selected_topics()
-        if not topics:
-            QMessageBox.warning(self, "Invalid Input", "Please select at least one topic!")
+        log("DEBUG", "Adding to queue")
+        question_types = self.get_question_types()
+        total_questions = sum(question_types.values())
+        if total_questions == 0:
+            QMessageBox.warning(self, "Invalid Input", "Select at least one question type with a non-zero count!")
             return
-        num_questions = sum(self.get_question_types().values())
-        if num_questions < 1:
-            QMessageBox.warning(self, "Invalid Input", "Please select at least one question type with a non-zero count!")
+        selected_topics = self.get_selected_topics()
+        if not selected_topics:
+            QMessageBox.warning(self, "Invalid Input", "Select at least one topic!")
             return
-        dialog = GoogleFormDialog(
-            {
-                "topics": topics,
-                "question_types": self.get_question_types(),
-                "export_format": self.exportFormatCombo.currentText(),
-                "difficulty": self.difficultyCombo.currentText(),
-                "activity_type": self.activityCombo.currentText(),
-                "grade": self.gradeCombo.currentText()
-            },
-            self.activityCombo.currentText(),
-            self.difficultyCombo.currentText(),
-            self
-        )
-        dialog.exec_()
+        export_format = self.exportFormatCombo.currentText()
+        if export_format == "Google Forms":
+            dialog = GoogleFormDialog(
+                settings={
+                    "topics": selected_topics,
+                    "question_types": question_types,
+                    "difficulty": self.difficultyCombo.currentText(),
+                    "export_format": export_format
+                },
+                activity_type=self.activityCombo.currentText(),
+                difficulty=self.difficultyCombo.currentText(),
+                parent=self
+            )
+            dialog.exec_()
+        else:
+            task = {
+                "settings": {
+                    "topics": selected_topics,
+                    "question_types": question_types,
+                    "difficulty": self.difficultyCombo.currentText(),
+                    "export_format": export_format
+                },
+                "title": f"{self.activityCombo.currentText()} Quiz",
+                "description": f"Generated for {self.difficultyCombo.currentText()} difficulty"
+            }
+            self.task_queue.append(task)
+            self.update_queue_table()
+            log("INFO", f"Task added to queue: {task['title']}")
 
     def start_queue_processing(self):
+        log("DEBUG", "Starting queue processing")
         if not self.task_queue:
-            QMessageBox.warning(self, "Empty Queue", "No tasks in queue to process!")
+            QMessageBox.warning(self, "No Tasks", "The queue is empty!")
             return
         if self.current_thread and self.current_thread.isRunning():
             QMessageBox.warning(self, "Processing", "A task is already being processed!")
@@ -232,76 +246,68 @@ class QuizGeneratorGUI(QMainWindow):
             sum(settings["question_types"].values()),
             settings["difficulty"],
             settings["question_types"],
-            settings["activity_type"],
+            self.activityCombo.currentText(),
             task
         )
-        self.current_thread.generation_complete.connect(self.on_generation_complete)
-        self.current_thread.error_occurred.connect(self.on_generation_error)
+        self.current_thread.generation_complete.connect(self.handle_generation_complete)
+        self.current_thread.error_occurred.connect(self.handle_generation_error)
         self.current_thread.start()
         self.queueStatusLabel.setText("Status: Processing...")
-        log("INFO", "Started queue processing")
 
-    def on_generation_complete(self, questions, task):
-        log("INFO", f"Generation complete with {len(questions)} questions")
+    def handle_generation_complete(self, questions, task):
+        log("DEBUG", "Handling generation complete")
         self.refined_questions = questions
-        self.current_thread = None
         self.update_question_table()
+        export_format = task["settings"]["export_format"]
         try:
-            utils.save_json(os.path.join(self.activities_dir, f"quiz_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"), {
+            output_path = os.path.join(self.activities_dir, f"{task['title']}.json")
+            utils.save_json(output_path, {
                 "title": task["title"],
                 "description": task["description"],
                 "questions": questions
             })
-            log("INFO", f"Saved questions to Activities folder")
-        except Exception as e:
-            log("ERROR", f"Failed to save questions: {e}")
-        export_format = task["settings"]["export_format"]
-        if export_format == "Google Forms":
-            form_id = export.create_google_form(task["title"], task["description"], questions)
-            if form_id:
-                self.form_id = form_id
-                form_url = f"https://docs.google.com/forms/d/{form_id}/edit"
-                webbrowser.open(form_url)
-                log("INFO", f"Google Form created and opened: {form_url}")
+            log("INFO", f"Saved quiz to {output_path}")
+            if export_format == "Google Forms":
+                form_id = export.create_google_form(task["title"], task["description"], questions)
+                if form_id:
+                    self.form_id = form_id
+                    webbrowser.open(f"https://docs.google.com/forms/d/{form_id}/edit")
+                    log("INFO", f"Google Form opened: {form_id}")
+                else:
+                    raise Exception("Failed to create Google Form")
+            elif export_format == "Kahoot":
+                export.convert_to_kahoot_excel(questions)
             else:
-                log("ERROR", "Failed to create Google Form")
-                QMessageBox.critical(self, "Error", "Failed to create Google Form")
-        elif export_format == "Kahoot":
-            export.convert_to_kahoot_excel(questions)
-        elif export_format == "PDF":
-            export.export_to_pdf(questions)
-        elif export_format == "JSON":
-            utils.save_json(f"quiz_export_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json", questions)
+                export.export_to_pdf(questions)
+            QMessageBox.information(self, "Success", f"Quiz '{task['title']}' generated and exported successfully!")
+        except Exception as e:
+            log("ERROR", f"Failed to save/export quiz: {e}")
+            QMessageBox.critical(self, "Error", f"Failed to save/export quiz: {e}")
         self.task_queue.pop(0)
-        self.update_queue_table()
-        self.process_next_task()
-
-    def process_next_task(self):
-        if self.task_queue and not self.current_thread:
-            self.start_queue_processing()
-        else:
-            self.queueStatusLabel.setText("Status: Idle")
-
-    def on_generation_error(self, error):
-        log("ERROR", f"Generation error: {error}")
-        self.task_queue.pop(0)
-        self.current_thread = None
         self.update_queue_table()
         self.queueStatusLabel.setText("Status: Idle")
-        QMessageBox.critical(self, "Error", f"Generation failed: {error}")
+        self.current_thread = None
+
+    def handle_generation_error(self, error):
+        log("ERROR", f"Generation error: {error}")
+        error_message = (f"Quiz generation or evaluation failed: {error}. "
+                        "Please ensure the Ollama API is running at http://localhost:11434 "
+                        "and the models 'gpt-oss:20b' and 'deepseek-r1:14b' are available. "
+                        "Check logs for details.")
+        QMessageBox.critical(self, "Error", error_message)
+        self.task_queue.pop(0)
+        self.update_queue_table()
+        self.queueStatusLabel.setText("Status: Idle")
+        self.current_thread = None
 
     def export_activities(self):
-        log("INFO", "Starting batch export of activities")
+        log("DEBUG", "Exporting activities")
         try:
             exported_forms = export.export_activities_from_folder(self.activities_dir)
             if exported_forms:
-                QMessageBox.information(self, "Success", f"Exported {len(exported_forms)} Google Forms from Activities folder!")
-                for form_id in exported_forms:
-                    form_url = f"https://docs.google.com/forms/d/{form_id}/edit"
-                    webbrowser.open(form_url)
-                    log("INFO", f"Opened Google Form: {form_url}")
+                QMessageBox.information(self, "Success", f"Exported {len(exported_forms)} activities as Google Forms!")
             else:
-                QMessageBox.warning(self, "Warning", "No activities found in Activities folder or export failed!")
+                QMessageBox.warning(self, "No Exports", "No activities were exported!")
         except Exception as e:
             log("ERROR", f"Failed to export activities: {e}")
             QMessageBox.critical(self, "Error", f"Failed to export activities: {e}")

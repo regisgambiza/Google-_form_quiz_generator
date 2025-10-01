@@ -1,0 +1,28 @@
+{
+  "title": "Class Activity Quiz",
+  "description": "Generated for Medium difficulty",
+  "questions": [
+    {
+      "answer": "40",
+      "difficulty": "Medium",
+      "question": "What is the lowest common multiple of 8 and 10?",
+      "subtopic": "1.2 Lowest common multiple and highest common factor",
+      "topic": "Chapter 1: Factors",
+      "type": "Short Answer"
+    },
+    {
+      "answer": true,
+      "difficulty": "Medium",
+      "options": [
+        "Yes",
+        "No",
+        "True",
+        "Option 4"
+      ],
+      "question": "Is 15 a factor of 30?",
+      "subtopic": "1.1 Divisibility tests",
+      "topic": "Chapter 1: Factors",
+      "type": "MCQ"
+    }
+  ]
+}

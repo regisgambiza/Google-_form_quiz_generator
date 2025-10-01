@@ -1,6 +1,6 @@
 {
-  "generator_model": "gpt-oss:20b",
-  "critic_model": "deepseek-r1:14b",
+  "generator_model": "wizard-math:13b",
+  "critic_model": "gpt-oss:20b",
   "ai_models": [
     "deepseek-r1:14b",
     "gpt-oss:20b",
