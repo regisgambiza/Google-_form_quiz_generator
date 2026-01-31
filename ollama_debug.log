@@ -1,0 +1,2195 @@
+[2025-10-19 14:45:54] [INFO] Starting per-question evaluation of all activities...
+[2025-10-19 14:45:56] [INFO] Ollama server is responsive
+[2025-10-19 14:45:58] [INFO] Available models: ['llama3.1:8b', 'codellama:13b', 'llama3:8b', 'gemma2:27b', 'qwen3:30b', 'Lazysniper/HorizaEdu:latest', 'deepseek-r1:14b', 'gpt-oss:20b', 'llama3.1:8b-instruct-q4_0']
+[2025-10-19 14:45:58] [INFO] Processing activity file: Chapter 7 Quiz – Multiplying and Dividing by 0.1 and 0.01.json
+[2025-10-19 14:45:58] [INFO] Evaluating question: What is 25 × 0.1?...
+[2025-10-19 14:45:58] [DEBUG] Ollama API call attempt 1 for model deepseek-r1:14b
+[2025-10-19 14:48:25] [DEBUG] Ollama API success for model deepseek-r1:14b
+[2025-10-19 14:48:25] [DEBUG] Raw model output: **Step-by-Step Explanation:**
+
+To solve 25 × 0.1:
+
+1. **Understanding Multiplication by 0.1:**  
+   Multiplying a number by 0.1 is equivalent to dividing that number by 10.
+
+2. **Applying the Operation:**  
+   Dividing 25 by 10 moves the decimal point one place to the left, resulting in 2.5.
+
+3. **Evaluating Options:**  
+   - **250**: Too large; multiplying by 0.1 reduces the number.  
+   - **2.5**: Correct as calculated.  
+   - **0.25** and **0.025**: These are results of multiplying by smaller...
+[2025-10-19 14:48:25] [DEBUG] Direct JSON parsing failed, attempting regex extraction
+[2025-10-19 14:48:25] [DEBUG] Model deepseek-r1:14b approved=True corrected_answer=2.5
+[2025-10-19 14:48:25] [INFO] Evaluating question: What is 3.2 ÷ 0.1?...
+[2025-10-19 14:48:25] [DEBUG] Ollama API call attempt 1 for model deepseek-r1:14b
+[2025-10-19 14:50:17] [DEBUG] Ollama API success for model deepseek-r1:14b
+[2025-10-19 14:50:17] [DEBUG] Raw model output: The question is correct and appropriate for its difficulty level. 
+
+```json
+{
+  "approved": true,
+  "comments": "The question is correctly formulated with an appropriate answer.",
+  "corrected_answer": null
+}
+```...
+[2025-10-19 14:50:17] [DEBUG] Direct JSON parsing failed, attempting regex extraction
+[2025-10-19 14:50:17] [DEBUG] Model deepseek-r1:14b approved=True corrected_answer=None
+[2025-10-19 14:50:17] [INFO] Evaluating question: A rope is 12 m long. If each piece is 0.1 m, how many pieces...
+[2025-10-19 14:50:17] [DEBUG] Ollama API call attempt 1 for model deepseek-r1:14b
+[2025-10-19 14:51:02] [INFO] Starting per-question evaluation of all activities...
+[2025-10-19 14:51:04] [INFO] Ollama server is responsive
+[2025-10-19 14:51:06] [INFO] Available models: ['llama3.1:8b', 'codellama:13b', 'llama3:8b', 'gemma2:27b', 'qwen3:30b', 'Lazysniper/HorizaEdu:latest', 'deepseek-r1:14b', 'gpt-oss:20b', 'llama3.1:8b-instruct-q4_0']
+[2025-10-19 14:51:06] [INFO] Processing activity file: Chapter 7 Quiz – Multiplying and Dividing by 0.1 and 0.01.json
+[2025-10-19 14:51:06] [INFO] Evaluating question: What is 25 × 0.1?...
+[2025-10-19 14:51:06] [DEBUG] Ollama API call attempt 1 for model deepseek-r1:14b
+[2025-10-19 14:53:15] [DEBUG] Ollama API success for model deepseek-r1:14b
+[2025-10-19 14:53:15] [DEBUG] Raw model output: **Step-by-Step Explanation:**
+
+1. **Understanding the Operation:** The problem involves multiplying 25 by 0.1.
+2. **Multiplying by Tenths:** Multiplying by 0.1 is equivalent to dividing by 10, which moves the decimal point one place to the left.
+3. **Performing the Calculation:** 
+   - Start with 25.
+   - Move the decimal point in 25 (which is 25.0) one place to the left: 2.50, which simplifies to 2.5.
+4. **Matching with Options:** Among the options provided, "2.5" is listed as option B.
+
+**Answ...
+[2025-10-19 14:53:15] [DEBUG] Direct JSON parsing failed, attempting regex extraction
+[2025-10-19 14:53:15] [DEBUG] Model deepseek-r1:14b approved=True corrected_answer=2.5
+[2025-10-19 14:53:15] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 14:54:23] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 14:54:23] [DEBUG] Raw model output: {"approved":true,"comments":"The question correctly tests multiplication with decimals and the provided answer (2.5) is accurate. Options are clear and relevant.","corrected_answer":""}...
+[2025-10-19 14:54:23] [DEBUG] Model gpt-oss:20b approved=True corrected_answer=
+[2025-10-19 14:54:23] [INFO] Final decision - approved: True, corrected_answer: 2.5, comments: The question is clear and appropriate for its difficulty level.; The question correctly tests multiplication with decimals and the provided answer (2.5) is accurate. Options are clear and relevant.
+[2025-10-19 14:54:23] [INFO] Evaluating question: What is 3.2 ÷ 0.1?...
+[2025-10-19 14:54:23] [DEBUG] Ollama API call attempt 1 for model deepseek-r1:14b
+[2025-10-19 15:27:59] [INFO] Starting per-question evaluation of all activities...
+[2025-10-19 15:28:01] [INFO] Ollama server is responsive
+[2025-10-19 15:28:03] [INFO] Available models: ['gemma2:9b', 'llama3.1:8b', 'codellama:13b', 'llama3:8b', 'gemma2:27b', 'qwen3:30b', 'Lazysniper/HorizaEdu:latest', 'deepseek-r1:14b', 'gpt-oss:20b', 'llama3.1:8b-instruct-q4_0']
+[2025-10-19 15:28:03] [INFO] Processing activity file: Chapter 7 Quiz – Multiplying and Dividing by 0.1 and 0.01.json
+[2025-10-19 15:28:03] [DEBUG] Ollama API call attempt 1 for model deepseek-r1:14b
+[2025-10-19 15:35:03] [INFO] Starting per-question evaluation of all activities...
+[2025-10-19 15:35:05] [INFO] Ollama server is responsive
+[2025-10-19 15:35:07] [INFO] Available models: ['gemma2:9b', 'llama3.1:8b', 'codellama:13b', 'llama3:8b', 'gemma2:27b', 'qwen3:30b', 'Lazysniper/HorizaEdu:latest', 'deepseek-r1:14b', 'gpt-oss:20b', 'llama3.1:8b-instruct-q4_0']
+[2025-10-19 15:35:07] [WARNING] Primary model deepseek-r1:14b unavailable, falling back to llama3.1:8b
+[2025-10-19 15:35:07] [INFO] Processing activity file: Chapter 7 Quiz – Multiplying and Dividing by 0.1 and 0.01.json
+[2025-10-19 15:35:07] [DEBUG] Ollama API call attempt 1 for model deepseek-r1:14b
+[2025-10-19 15:36:18] [INFO] Starting per-question evaluation of all activities...
+[2025-10-19 15:36:20] [INFO] Ollama server is responsive
+[2025-10-19 15:36:22] [INFO] Available models: ['gemma2:9b', 'llama3.1:8b', 'codellama:13b', 'llama3:8b', 'gemma2:27b', 'qwen3:30b', 'Lazysniper/HorizaEdu:latest', 'deepseek-r1:14b', 'gpt-oss:20b', 'llama3.1:8b-instruct-q4_0']
+[2025-10-19 15:36:22] [WARNING] Primary model gpt-oss:20b unavailable, falling back to llama3.1:8b
+[2025-10-19 15:36:22] [INFO] Processing activity file: Chapter 7 Quiz – Multiplying and Dividing by 0.1 and 0.01.json
+[2025-10-19 15:36:22] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 15:38:20] [INFO] Starting per-question evaluation of all activities...
+[2025-10-19 15:38:22] [INFO] Ollama server is responsive
+[2025-10-19 15:38:24] [INFO] Available models: ['gemma2:9b', 'llama3.1:8b', 'codellama:13b', 'llama3:8b', 'gemma2:27b', 'qwen3:30b', 'Lazysniper/HorizaEdu:latest', 'deepseek-r1:14b', 'gpt-oss:20b', 'llama3.1:8b-instruct-q4_0']
+[2025-10-19 15:38:24] [INFO] Processing activity file: Chapter 7 Quiz – Multiplying and Dividing by 0.1 and 0.01.json
+[2025-10-19 15:38:24] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 15:46:47] [INFO] Starting per-question evaluation of all activities...
+[2025-10-19 15:46:51] [ERROR] Ollama server health check failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024870877CB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+[2025-10-19 15:46:51] [ERROR] Aborting due to Ollama server unavailability
+[2025-10-19 15:46:51] [INFO] All activities processed.
+[2025-10-19 15:47:10] [INFO] Starting per-question evaluation of all activities...
+[2025-10-19 15:47:12] [INFO] Ollama server is responsive
+[2025-10-19 15:47:14] [INFO] Available models: ['gemma2:9b', 'llama3.1:8b', 'codellama:13b', 'llama3:8b', 'gemma2:27b', 'qwen3:30b', 'Lazysniper/HorizaEdu:latest', 'deepseek-r1:14b', 'gpt-oss:20b', 'llama3.1:8b-instruct-q4_0']
+[2025-10-19 15:47:14] [WARNING] Some models unavailable. Using: ['gpt-oss:20b', 'gemma2:9b', 'llama3.1:8b']
+[2025-10-19 15:47:14] [INFO] Processing activity file: Chapter 7 Quiz – Multiplying and Dividing by 0.1 and 0.01.json
+[2025-10-19 15:47:14] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 15:48:18] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 15:48:18] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"Correct calculation and options.","corrected_answer":null},{"index":1,"approved":true,"comments":"Correct calculation and options.","corrected_answer":null},{"index":2,"approved":true,"comments":"Correct calculation and options.","corrected_answer":null},{"index":3,"approved":true,"comments":"Correct calculation and options.","corrected_answer":null},{"index":4,"approved":true,"comments":"Correct calculation and options.","corrected_answer":null}]...
+[2025-10-19 15:48:18] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 15:48:18] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 15:48:31] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 15:48:31] [DEBUG] Raw model output: [
+  {"index": 0, "approved": true, "comments": "", "corrected_answer": ""},
+  {"index": 1, "approved": true, "comments": "", "corrected_answer": ""},
+  {"index": 2, "approved": true, "comments": "", "corrected_answer": ""},
+  {"index": 3, "approved": true, "comments": "", "corrected_answer": ""},
+  {"index": 4, "approved": true, "comments": "Could be worded more clearly.", "corrected_answer": ""}
+]...
+[2025-10-19 15:48:31] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 15:48:31] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 15:48:41] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 15:48:41] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": true,
+        "comments": "",
+        "corrected_answer": ""
+    },
+    {
+        "index": 1,
+        "approved": false,
+        "comments": "Rounding is not required in this question",
+        "corrected_answer": null
+    },
+    {
+        "index": 2,
+        "approved": true,
+        "comments": "",
+        "corrected_answer": ""
+    },
+    {
+        "index": 3,
+        "approved": false,
+        "comments": "This question is about division, not m...
+[2025-10-19 15:48:41] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 15:49:23] [INFO] Starting per-question evaluation of all activities...
+[2025-10-19 15:49:25] [INFO] Ollama server is responsive
+[2025-10-19 15:49:27] [INFO] Available models: ['gemma2:9b', 'llama3.1:8b', 'codellama:13b', 'llama3:8b', 'gemma2:27b', 'qwen3:30b', 'Lazysniper/HorizaEdu:latest', 'deepseek-r1:14b', 'gpt-oss:20b', 'llama3.1:8b-instruct-q4_0']
+[2025-10-19 15:49:27] [INFO] Processing activity file: Chapter 7 Quiz – Multiplying and Dividing by 0.1 and 0.01.json
+[2025-10-19 15:49:27] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 15:50:33] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 15:50:33] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"Correct answer and options; easy level appropriate."},{"index":1,"approved":true,"comments":"Correct answer and options; easy level appropriate."},{"index":2,"approved":true,"comments":"Correct answer and options; medium level appropriate."},{"index":3,"approved":true,"comments":"Correct answer and options; medium level appropriate."},{"index":4,"approved":true,"comments":"Correct answer and options; difficult level appropriate."}]...
+[2025-10-19 15:50:33] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 15:50:33] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 15:50:47] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 15:50:47] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": null, "corrected_answer": null}, {"index": 1, "approved": true, "comments": null, "corrected_answer": null}, {"index": 2, "approved": true, "comments": null, "corrected_answer": null}, {"index": 3, "approved": true, "comments": null, "corrected_answer": null}, {"index": 4, "approved": false, "comments": "The calculation should be 0.05 * 1000 = 50 L", "corrected_answer": "50 L"}]...
+[2025-10-19 15:50:47] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 15:50:47] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 15:50:55] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 15:50:55] [DEBUG] Raw model output: [
+    {"index": 0, "approved": false, "comments": "Incorrect options for a decimal multiplication.", "corrected_answer": null},
+    {"index": 1, "approved": true, "comments": "", "corrected_answer": null},
+    {"index": 2, "approved": true, "comments": "", "corrected_answer": null},
+    {"index": 3, "approved": false, "comments": "Incorrect options for a division with decimals.", "corrected_answer": null},
+    {"index": 4, "approved": false, "comments": "Answer is incorrect, should be 5.0 L", "c...
+[2025-10-19 15:50:55] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 15:55:34] [INFO] Starting per-question evaluation of all activities...
+[2025-10-19 15:55:36] [INFO] Ollama server is responsive
+[2025-10-19 15:55:38] [INFO] Available models: ['gemma2:9b', 'llama3.1:8b', 'codellama:13b', 'llama3:8b', 'gemma2:27b', 'qwen3:30b', 'Lazysniper/HorizaEdu:latest', 'deepseek-r1:14b', 'gpt-oss:20b', 'llama3.1:8b-instruct-q4_0']
+[2025-10-19 15:55:38] [INFO] Processing activity file: Chapter 7 Quiz – Multiplying and Dividing by 0.1 and 0.01.json
+[2025-10-19 15:55:38] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 15:57:24] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 15:57:24] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"Correct answer and clear options.","corrected_answer":null},{"index":1,"approved":true,"comments":"Correct answer and clear options.","corrected_answer":null},{"index":2,"approved":true,"comments":"Correct answer and clear options.","corrected_answer":null},{"index":3,"approved":true,"comments":"Correct answer and clear options.","corrected_answer":null},{"index":4,"approved":true,"comments":"Correct answer and clear options.","corrected_answer":null}]...
+[2025-10-19 15:57:24] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 15:57:24] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 15:57:39] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 15:57:39] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": null, "corrected_answer": null}, {"index": 1, "approved": true, "comments": null, "corrected_answer": null}, {"index": 2, "approved": true, "comments": null, "corrected_answer": null}, {"index": 3, "approved": true, "comments": null, "corrected_answer": null}, {"index": 4, "approved": true, "comments": null, "corrected_answer": null}]...
+[2025-10-19 15:57:39] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 15:57:39] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 15:57:47] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 15:57:47] [DEBUG] Raw model output: [
+  {"index": 0, "approved": false, "comments": "No conversion needed for multiplication by 0.1"},
+  {"index": 1, "approved": true, "comments": ""},
+  {"index": 2, "approved": false, "comments": "Division by 0.1 is equivalent to multiplying by 10"},
+  {"index": 3, "approved": false, "comments": "Inverse operation required, not straightforward multiplication or division"},
+  {"index": 4, "approved": true, "comments": ""}
+]...
+[2025-10-19 15:57:47] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 15:59:30] [INFO] Starting per-question evaluation of all activities...
+[2025-10-19 15:59:32] [INFO] Ollama server is responsive
+[2025-10-19 15:59:34] [INFO] Available models: ['gemma2:9b', 'llama3.1:8b', 'codellama:13b', 'llama3:8b', 'gemma2:27b', 'qwen3:30b', 'Lazysniper/HorizaEdu:latest', 'deepseek-r1:14b', 'gpt-oss:20b', 'llama3.1:8b-instruct-q4_0']
+[2025-10-19 15:59:34] [INFO] Processing activity file: Chapter 7 Quiz – Multiplying and Dividing by 0.1 and 0.01.json
+[2025-10-19 15:59:34] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:00:35] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:00:35] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"Correct calculation: 25 × 0.1 = 2.5."},{"index":1,"approved":true,"comments":"Correct calculation: 3.2 ÷ 0.1 = 32."},{"index":2,"approved":true,"comments":"Correct calculation: 12 ÷ 0.1 = 120 pieces."},{"index":3,"approved":true,"comments":"Correct equivalence: 48 ÷ 0.01 = 48 × 100."},{"index":4,"approved":true,"comments":"Correct conversion: 0.05 tonnes × 1000 L/tonne = 50 L."}]...
+[2025-10-19 16:00:35] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:00:35] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:00:49] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:00:49] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "", "corrected_answer": ""}, {"index": 1, "approved": true, "comments": "", "corrected_answer": ""}, {"index": 2, "approved": true, "comments": "", "corrected_answer": ""}, {"index": 3, "approved": true, "comments": "", "corrected_answer": ""}, {"index": 4, "approved": true, "comments": "", "corrected_answer": ""}]...
+[2025-10-19 16:00:49] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:00:49] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:00:58] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:00:58] [DEBUG] Raw model output: [
+    {"index": 0, "approved": false, "comments": "Rounding should be to the nearest tenth."},
+    {"index": 1, "approved": false, "comments": "Multiplication of decimals requires multiplying and placing the decimal point in the product."},
+    {"index": 2, "approved": true, "corrected_answer": null},
+    {"index": 3, "approved": true, "corrected_answer": null},
+    {"index": 4, "approved": false, "comments": "The operation of division by a decimal requires dividing and placing the decimal point...
+[2025-10-19 16:00:58] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:00:58] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:02:00] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:02:00] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"Statement is true; multiplying by 0.1 divides by 10."},{"index":1,"approved":true,"comments":"Dividing by 0.01 is equivalent to multiplying by 100, so it makes the number larger."},{"index":2,"approved":true,"comments":"Product is 3, not 30; statement is false."},{"index":3,"approved":true,"comments":"Dividing by 0.1 equals multiplying by 10, so statement true."},{"index":4,"approved":true,"comments":"Dividing by 0.01 increases magnitude; a decrease indica...
+[2025-10-19 16:02:00] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:02:00] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:02:19] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:02:19] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": true,
+    "comments": null,
+    "corrected_answer": null
+  },
+  {
+    "index": 1,
+    "approved": true,
+    "comments": null,
+    "corrected_answer": null
+  },
+  {
+    "index": 2,
+    "approved": false,
+    "comments": "0.01 x 300 = 3",
+    "corrected_answer": "Wrong"
+  },
+  {
+    "index": 3,
+    "approved": true,
+    "comments": null,
+    "corrected_answer": null
+  },
+  {
+    "index": 4,
+    "approved": false,
+    "comments": "Dividing by 0.01 makes a numbe...
+[2025-10-19 16:02:19] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:02:19] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:02:28] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:02:28] [DEBUG] Raw model output: [
+    {"index": 0, "approved": false, "comments": "Multiplying by a decimal less than 1 makes the number smaller, not larger.", "corrected_answer": null},
+    {"index": 1, "approved": true, "comments": "", "corrected_answer": null},
+    {"index": 2, "approved": false, "comments": "0.01 × 300 = 3", "corrected_answer": null},
+    {"index": 3, "approved": true, "comments": "", "corrected_answer": null},
+    {"index": 4, "approved": true, "comments": "", "corrected_answer": null}
+]...
+[2025-10-19 16:02:28] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:02:28] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:03:19] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:03:19] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"Correct calculation: 4.5 × 0.1 = 0.45."},{"index":1,"approved":true,"comments":"Correct calculation: 7 ÷ 0.1 = 70."},{"index":2,"approved":true,"comments":"Correct calculation: 0.9 × 0.01 = 0.009."},{"index":3,"approved":true,"comments":"Correct calculation: 0.1 km/min × 25 min = 2.5 km."},{"index":4,"approved":true,"comments":"Correct calculation: 2.5 ÷ 0.01 = 250."}]}...
+[2025-10-19 16:03:19] [DEBUG] Direct JSON parsing failed, attempting regex extraction
+[2025-10-19 16:03:19] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:03:19] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:03:33] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:03:33] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "", "corrected_answer": ""}, {"index": 1, "approved": true, "comments": "", "corrected_answer": ""}, {"index": 2, "approved": true, "comments": "", "corrected_answer": ""}, {"index": 3, "approved": true, "comments": "", "corrected_answer": ""}, {"index": 4, "approved": true, "comments": "", "corrected_answer": ""}]...
+[2025-10-19 16:03:33] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:03:33] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:03:41] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:03:41] [DEBUG] Raw model output: [
+    {"index": 0, "approved": false, "comments": "Answer format is incorrect"},
+    {"index": 1, "approved": false, "comments": "Answer format is incorrect"},
+    {"index": 2, "approved": true, "corrected_answer": "0.009"},
+    {"index": 3, "approved": true, "corrected_answer": "2.5 km"},
+    {"index": 4, "approved": false, "comments": "Answer format is incorrect"}
+]...
+[2025-10-19 16:03:41] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:03:41] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:04:48] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:04:48] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"Correct calculation.","corrected_answer":""},{"index":1,"approved":true,"comments":"Correct calculation.","corrected_answer":""},{"index":2,"approved":true,"comments":"Correct calculation.","corrected_answer":""},{"index":3,"approved":true,"comments":"Correct calculation.","corrected_answer":""},{"index":4,"approved":true,"comments":"Correct calculation.","corrected_answer":""}]...
+[2025-10-19 16:04:48] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:04:48] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:05:02] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:05:02] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": null, "corrected_answer": null}, {"index": 1, "approved": true, "comments": null, "corrected_answer": null}, {"index": 2, "approved": true, "comments": null, "corrected_answer": null}, {"index": 3, "approved": true, "comments": null, "corrected_answer": null}, {"index": 4, "approved": true, "comments": null, "corrected_answer": null}]...
+[2025-10-19 16:05:02] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:05:02] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:05:10] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:05:10] [DEBUG] Raw model output: [
+    {"index": 0, "approved": false, "comments": "Incorrect rounding for division result", "corrected_answer": "16000"},
+    {"index": 1, "approved": true},
+    {"index": 2, "approved": false, "comments": "Multiplication factor is incorrect", "corrected_answer": "฿50.0"},
+    {"index": 3, "approved": false, "comments": "Incorrect division result due to precision", "corrected_answer": "0.4"}, 
+    {"index": 4, "approved": true}
+]...
+[2025-10-19 16:05:10] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:05:10] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:05:37] [INFO] Starting per-question evaluation of all activities...
+[2025-10-19 16:05:39] [INFO] Ollama server is responsive
+[2025-10-19 16:05:41] [INFO] Available models: ['gemma2:9b', 'llama3.1:8b', 'codellama:13b', 'llama3:8b', 'gemma2:27b', 'qwen3:30b', 'Lazysniper/HorizaEdu:latest', 'deepseek-r1:14b', 'gpt-oss:20b', 'llama3.1:8b-instruct-q4_0']
+[2025-10-19 16:05:41] [INFO] Processing activity file: Chapter 7 Quiz – Multiplying and Dividing by 0.1 and 0.01.json
+[2025-10-19 16:05:41] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:05:57] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:05:57] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"Answer correctly matches the calculation; question is clear and suitable for easy difficulty."}]...
+[2025-10-19 16:05:57] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:05:57] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:06:06] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:06:06] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": null, "corrected_answer": null}]...
+[2025-10-19 16:06:06] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:06:06] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:06:13] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:06:13] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": false,
+    "comments": "Answer option '250' is a product of 25 and 10 (1 x 0.1), not 25 and 0.1",
+    "corrected_answer": null
+  }
+]...
+[2025-10-19 16:06:13] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:06:13] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:06:44] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:06:44] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Correct question and answer; options are clear and relevant to the topic.", "corrected_answer": ""}]...
+[2025-10-19 16:06:44] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:06:44] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:06:53] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:06:53] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Clear and concise question.", "corrected_answer": null}]...
+[2025-10-19 16:06:53] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:06:53] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:07:00] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:07:00] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "Division operation is valid, but answer options are not correctly formatted for a decimal place value question.",
+        "corrected_answer": null
+    }
+]...
+[2025-10-19 16:07:00] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:07:00] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:07:46] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:07:46] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"Correct answer and options are appropriate; difficulty rating may be considered easier than medium.","corrected_answer":null}]...
+[2025-10-19 16:07:46] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:07:46] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:07:57] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:07:57] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": true,
+    "comments": "Good question that assesses understanding of division with decimals.",
+    "corrected_answer": null
+  }
+]...
+[2025-10-19 16:07:57] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:07:57] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:08:03] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:08:03] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": true,
+    "comments": "",
+    "corrected_answer": null
+  }
+]...
+[2025-10-19 16:08:03] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:08:03] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:08:46] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:08:46] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"Correct representation of division by a decimal is multiplication by its reciprocal.","corrected_answer":null}]...
+[2025-10-19 16:08:46] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:08:46] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:08:55] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:08:55] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": null, "corrected_answer": null}]...
+[2025-10-19 16:08:55] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:08:55] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:09:01] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:09:01] [DEBUG] Raw model output: [{"index": 0, "approved": false, "comments": "MCQ without multiple options", "corrected_answer": null}]...
+[2025-10-19 16:09:01] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:09:01] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:09:33] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:09:33] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"Correct answer; difficulty rating should be Medium instead of Difficult."}]...
+[2025-10-19 16:09:33] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:09:33] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:09:42] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:09:42] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "", "corrected_answer": null}]...
+[2025-10-19 16:09:42] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:09:42] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:09:48] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:09:48] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "Question type should be 'NUM' instead of 'MCQ' for this kind of question.",
+        "corrected_answer": null
+    }
+]...
+[2025-10-19 16:09:48] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:09:48] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:10:22] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:10:22] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"The statement is correct; multiplying by 0.1 divides the number by ten, making it ten times smaller.","corrected_answer":null}]...
+[2025-10-19 16:10:22] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:10:22] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:10:33] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:10:33] [DEBUG] Raw model output: [{"index": 0, "approved": false, "comments": "Multiplying by 0.1 makes a number ten times *smaller*. It should be stated as 'ten times *less*' or provide an example demonstrating the decrease.", "corrected_answer": null}]...
+[2025-10-19 16:10:33] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:10:33] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:10:39] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:10:39] [DEBUG] Raw model output: [{"index": 0, "approved": false, "comments": "The statement is incorrect. Multiplying a number by 0.1 makes it one tenth of its original size.", "corrected_answer": ""}]...
+[2025-10-19 16:10:39] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:10:39] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:11:15] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:11:15] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"Statement is correct; dividing by 0.01 multiplies the number by 100.","corrected_answer":""}]...
+[2025-10-19 16:11:15] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:11:15] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:11:26] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:11:26] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": false,
+    "comments": "Dividing by 0.01 makes a number 100 times *smaller*, not larger.",
+    "corrected_answer": "Wrong"
+  }
+]...
+[2025-10-19 16:11:26] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:11:26] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:11:32] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:11:32] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "Question is a True/False question and does not require the options or answer to be corrected.",
+        "corrected_answer": null
+    }
+]...
+[2025-10-19 16:11:32] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:11:32] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:12:23] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:12:23] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "The statement is incorrect; 0.01 × 300 equals 3, not 30. The answer \"Wrong\" is correct. Options are clear, though using \"True/False\" labels might improve consistency.", "corrected_answer": null}]...
+[2025-10-19 16:12:23] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:12:23] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:12:33] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:12:33] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "The question is clear and accurately assesses understanding of multiplication with decimals.", "corrected_answer": null}]...
+[2025-10-19 16:12:33] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:12:33] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:12:39] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:12:39] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "Incorrect multiplication of decimals",
+        "corrected_answer": "0.01 × 300 = 3."
+    }
+]...
+[2025-10-19 16:12:39] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:12:39] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:13:11] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:13:11] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"The statement is correct; dividing by 0.1 is equivalent to multiplying by 10."}]...
+[2025-10-19 16:13:11] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:13:11] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:13:20] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:13:20] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "This is a good question that tests understanding of reciprocal operations.", "corrected_answer": null}]...
+[2025-10-19 16:13:20] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:13:20] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:13:28] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:13:28] [DEBUG] Raw model output: [{"type": "True/False", "question": "To divide by 0.1, you can multiply by 10.", "options": ["Correct", "Wrong"], "answer": "Correct", "difficulty": "Medium"}, {"index": 0, "approved": true, "comments": "", "corrected_answer": ""}]...
+[2025-10-19 16:13:28] [WARNING] Invalid batch response from llama3.1:8b
+[2025-10-19 16:13:28] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:14:59] [INFO] Starting per-question evaluation of all activities...
+[2025-10-19 16:15:01] [INFO] Ollama server is responsive
+[2025-10-19 16:15:03] [INFO] Available models: ['gemma2:9b', 'llama3.1:8b', 'codellama:13b', 'llama3:8b', 'gemma2:27b', 'qwen3:30b', 'Lazysniper/HorizaEdu:latest', 'deepseek-r1:14b', 'gpt-oss:20b', 'llama3.1:8b-instruct-q4_0']
+[2025-10-19 16:15:03] [INFO] Processing activity file: Chapter 7 Quiz – Multiplying and Dividing by 0.1 and 0.01.json
+[2025-10-19 16:15:03] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:15:27] [INFO] Starting per-question evaluation of all activities...
+[2025-10-19 16:15:29] [INFO] Ollama server is responsive
+[2025-10-19 16:15:31] [INFO] Available models: ['gemma2:9b', 'llama3.1:8b', 'codellama:13b', 'llama3:8b', 'gemma2:27b', 'qwen3:30b', 'Lazysniper/HorizaEdu:latest', 'deepseek-r1:14b', 'gpt-oss:20b', 'llama3.1:8b-instruct-q4_0']
+[2025-10-19 16:15:31] [INFO] Processing activity file: Chapter 7 Quiz – Multiplying and Dividing by 0.1 and 0.01.json
+[2025-10-19 16:15:31] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:16:29] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:16:29] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"The question correctly tests basic decimal multiplication and place value. It's straightforward and the answer is correct. A small wording change could improve clarity.","suggested_refinement":{"type":"MCQ","question":"What is the product of 25 and 0.1?","options":["250","2.5","0.25","0.025"],"answer":"2.5","difficulty":"Easy"}}]...
+[2025-10-19 16:16:29] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:16:29] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:16:38] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:16:38] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": null, "suggested_refinement": null}]...
+[2025-10-19 16:16:38] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:16:38] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:16:44] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:16:44] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": true,
+        "comments": "",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 16:16:44] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:16:44] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:17:19] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:17:19] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"Correctly tests basic decimal division, answer is accurate.","suggested_refinement":null}]...
+[2025-10-19 16:17:19] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:17:19] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:17:29] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:17:29] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": true,
+    "comments": "Clear and straightforward. Good for assessing understanding of basic division with decimals.",
+    "suggested_refinement": null
+  }
+]...
+[2025-10-19 16:17:29] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:17:29] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:17:35] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:17:35] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "The decimal places in the options do not match the expected result.",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 16:17:35] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:17:35] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:18:12] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:18:12] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"Clear and correctly calculates number of pieces; options include plausible distractors.","suggested_refinement":null}]...
+[2025-10-19 16:18:12] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:18:12] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:18:21] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:18:21] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": null, "suggested_refinement": null}]...
+[2025-10-19 16:18:21] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:18:21] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:18:28] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:18:28] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "The options are not provided in the correct format. They should be an array of strings.",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 16:18:28] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:18:28] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:19:06] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:19:06] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"Clear question testing the concept of dividing by a decimal and recognizing it as multiplying by its reciprocal. The correct answer is 48 × 100, which matches the provided answer. Difficulty is appropriately set to Medium.","suggested_refinement":null}]...
+[2025-10-19 16:19:06] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:19:06] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:19:16] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:19:16] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": true,
+    "comments": "Good use of inverse operations to test understanding of decimal division.",
+    "suggested_refinement": null
+  }
+]...
+[2025-10-19 16:19:16] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:19:16] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:19:23] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:19:23] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "The correct answer should be '48 ÷ 100' since dividing by a fraction inverts the operation.",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 16:19:23] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:19:23] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:20:21] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:20:21] [DEBUG] Raw model output: [{"index":0,"approved":false,"comments":"Difficulty level incorrectly labeled as difficult; the question is straightforward and should be marked as easy or basic.","suggested_refinement":{"type":"MCQ","question":"A tank holds 0.05 tonnes of water. How many litres is that? (1 tonne = 1000 L)","options":["5 L","50 L","500 L","5000 L"],"answer":"50 L","difficulty":"Easy"}}]...
+[2025-10-19 16:20:21] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:20:21] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:20:36] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:20:36] [DEBUG] Raw model output: [{"index": 0, "approved": false, "comments": "Calculation is trivial; doesn't effectively test understanding of place value and decimals.", "suggested_refinement": {"type": "MCQ", "question": "A tank holds 3.45 tonnes of water. Round this to the nearest tenth of a tonne and then convert that amount to litres (1 tonne = 1000 L).", "options": ["3450 L", "3400 L", "3500 L", "3550 L"], "answer": "3400 L", "difficulty": "Medium"}}]...
+[2025-10-19 16:20:36] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:20:36] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:20:43] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:20:43] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "The question is incomplete as it doesn't specify the units of measurement for litres.",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 16:20:43] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:20:43] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:21:32] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:21:32] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"The statement is correct; multiplying by 0.1 reduces the number by a factor of ten. Option labels could be clearer and the phrasing more conventional.","suggested_refinement":{"type":"True/False","question":"When a number is multiplied by 0.1, it becomes ten times smaller.","options":["True","False"],"answer":"True","difficulty":"Easy"}}]...
+[2025-10-19 16:21:32] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:21:32] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:21:42] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:21:42] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Clearly stated and tests understanding of place value in decimals.", "suggested_refinement": null}]...
+[2025-10-19 16:21:42] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:21:42] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:21:48] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:21:48] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "This statement is actually incorrect. Multiplying a number by 0.1 makes it one tenth smaller.",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 16:21:48] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:21:48] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:22:50] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:22:50] [DEBUG] Raw model output: [{"index":0,"approved":false,"comments":"Options are non‑standard; ‘Correct’/‘Wrong’ can confuse learners. Difficulty label ‘Medium’ is inconsistent with the simplicity of the concept.","suggested_refinement":{"type":"True/False","question":"Dividing a number by 0.01 makes it 100 times larger.","options":["True","False"],"answer":"True","difficulty":"Easy"}}]...
+[2025-10-19 16:22:50] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:22:50] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:23:02] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:23:02] [DEBUG] Raw model output: [{"index": 0, "approved": false, "comments": "Dividing by 0.01 makes a number 100 times *smaller* not larger.", "suggested_refinement": {"type": "True/False", "question": "Dividing a number by 0.01 makes the number 100 times smaller.", "options": ["Correct", "Wrong"], "answer": "Correct", "difficulty": "Medium"}}]...
+[2025-10-19 16:23:02] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:23:02] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:23:09] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:23:09] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "Rounding and decimals are not mentioned in the topic.",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 16:23:09] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:23:09] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:24:01] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:24:01] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"Question is clear and correctly identifies the statement as false, but the option labels are unconventional. Replacing \"Correct\"/\"Wrong\" with \"True\"/\"False\" aligns with typical True/False formats.","suggested_refinement":{"type":"True/False","question":"0.01 × 300 = 30.","options":["True","False"],"answer":"False","difficulty":"Easy"}}]...
+[2025-10-19 16:24:01] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:24:01] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:24:13] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:24:13] [DEBUG] Raw model output: [{"index": 0, "approved": false, "comments": "The calculation is incorrect. 0.01 × 300 = 3.", "suggested_refinement": {"type": "True/False", "question": "0.01 × 300 = 3.", "options": ["Correct", "Wrong"], "answer": "Correct", "difficulty": "Easy"}}]...
+[2025-10-19 16:24:13] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:24:13] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:24:19] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:24:19] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "This question is too easy and doesn't cover the topic thoroughly.",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 16:24:19] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:24:19] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:24:45] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:24:45] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"Clear and correct concept of reciprocal multiplication.","suggested_refinement":null}]...
+[2025-10-19 16:24:45] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:24:45] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:24:54] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:24:54] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Clear and accurate statement.", "suggested_refinement": null}]...
+[2025-10-19 16:24:54] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:24:54] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:25:01] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:25:01] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": false,
+    "comments": "The statement is partially correct. It implies that the actual process involves multiplying by 10 and then dividing by 10 to compensate for the multiplication factor.",
+    "suggested_refinement": null
+  }
+]...
+[2025-10-19 16:25:01] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:25:01] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:25:44] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:25:44] [DEBUG] Raw model output: [{"index":0,"approved":false,"comments":"The question uses ambiguous option labels (‘Correct’/‘Wrong’) instead of standard ‘True’/‘False’, which could confuse students. The statement is also logically incorrect (dividing by 0.01 increases the number), but the answer key incorrectly marks it as correct. This inconsistency makes the item flawed.","suggested_refinement":{"type":"True/False","question":"If a number becomes smaller after dividing by 0.01, there was a calculation mistake.","options":[...
+[2025-10-19 16:25:44] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:25:44] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:25:59] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:25:59] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": false,
+    "comments": "The statement is too absolute. Division by a small decimal can result in a larger number depending on the context.",
+    "suggested_refinement": {
+      "type": "True/False",
+      "question": "Dividing a number by 0.01 will always result in a smaller number.",
+      "options": ["Correct", "Wrong"],
+      "answer": "False",
+      "difficulty": "Difficult"
+    }
+  }
+]...
+[2025-10-19 16:25:59] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:25:59] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:26:06] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:26:06] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "The statement is not necessarily true. A number may become smaller after dividing by 0.01 due to the actual value of the number, not just a calculation mistake.",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 16:26:06] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:26:06] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:26:39] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:26:39] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"Simple multiplication of decimal numbers within place value context; appropriate difficulty.","suggested_refinement":null}]...
+[2025-10-19 16:26:39] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:26:39] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:26:49] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:26:49] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": true,
+    "comments": "Clear and concise. Assesses understanding of multiplying decimals.",
+    "suggested_refinement": null
+  }
+]...
+[2025-10-19 16:26:49] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:26:49] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:26:55] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:26:55] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "Missing unit of measurement for the product",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 16:26:55] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:26:55] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:27:27] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:27:27] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"Correct calculation and appropriate difficulty.","suggested_refinement":{"type":"Open-ended","question":"Compute 7 ÷ 0.1","answer":"70","difficulty":"Easy"}}]...
+[2025-10-19 16:27:27] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:27:27] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:27:36] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:27:36] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": null, "suggested_refinement": null}]...
+[2025-10-19 16:27:36] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:27:36] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:27:43] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:27:43] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "Question type is not aligned with difficulty level",
+        "suggested_refinement": {
+            "type": "Multiple Choice",
+            "question": "Find the value of 7 ÷ 0.1",
+            "answer": "70",
+            "difficulty": "Easy"
+        }
+    }
+]...
+[2025-10-19 16:27:43] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:27:43] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:28:17] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:28:17] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"The question correctly assesses multiplication of decimals at easy difficulty; answer is accurate.","suggested_refinement":null}]...
+[2025-10-19 16:28:17] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:28:17] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:28:26] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:28:26] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Good basic calculation question.", "suggested_refinement": null}]...
+[2025-10-19 16:28:26] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:28:26] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:28:33] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:28:33] [DEBUG] Raw model output: ```json
+[
+  {
+    "index": 0,
+    "approved": false,
+    "comments": "Question type should be specific to the topic. Difficulty level is too easy for a mixed difficulty set.",
+    "suggested_refinement": {
+      "type": "Open-ended",
+      "question": "Calculate 0.9 × 0.01 using place value and rounding rules",
+      "answer": "0.009",
+      "difficulty": "Medium"
+    }
+  }
+]
+```...
+[2025-10-19 16:28:33] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:28:33] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:28:55] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:28:55] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Clear, directly tests multiplication of place values; suitable for Easy level.", "suggested_refinement": null}]...
+[2025-10-19 16:28:55] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:28:55] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:29:04] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:29:04] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": null, "suggested_refinement": null}]...
+[2025-10-19 16:29:04] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:29:04] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:29:11] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:29:11] [DEBUG] Raw model output: ```
+[
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "The question is open-ended and lacks a specific format for answer, which may not be suitable for assessing place value understanding.",
+        "suggested_refinement": null
+    }
+]
+```...
+[2025-10-19 16:29:11] [DEBUG] Direct JSON parsing failed, attempting regex extraction
+[2025-10-19 16:29:11] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:29:11] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:29:50] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:29:50] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"Question is clear and correctly tests division of decimals; difficulty is appropriate for mixed level","suggested_refinement":null}]...
+[2025-10-19 16:29:50] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:29:50] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:29:59] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:29:59] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": null, "suggested_refinement": null}]...
+[2025-10-19 16:29:59] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:29:59] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:30:05] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:30:05] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "Inconsistent difficulty level with the topic",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 16:30:05] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:30:05] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:30:40] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:30:40] [DEBUG] Raw model output: [{"index":0,"approved":false,"comments":"The question tests basic division with a decimal but does not explicitly involve place value, rounding, or decimals beyond the divisor. Adding a rounding requirement or a place value context would better align with the chapter topic.","suggested_refinement":{"type":"Open-ended","question":"Divide 16 by 0.01 and round your answer to the nearest whole number.","answer":"1600","difficulty":"Medium"}}]...
+[2025-10-19 16:30:40] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:30:40] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:30:49] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:30:49] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Appropriate difficulty level for the concept.", "suggested_refinement": null}]...
+[2025-10-19 16:30:49] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:30:49] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:30:55] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:30:55] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "Question is missing 'Mixed' difficulty tag",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 16:30:55] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:30:55] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:31:46] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:31:46] [DEBUG] Raw model output: [{"index":0,"approved":false,"comments":"Question is mathematically correct but the difficulty label is misleading; it should be Easy. The wording could also be clearer.","suggested_refinement":{"type":"Open-ended","question":"How much will a student have saved after depositing ฿0.1 each day for 365 days?","answer":"฿36.5","difficulty":"Easy"}}]...
+[2025-10-19 16:31:46] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:31:46] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:31:55] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:31:55] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Clear and relevant to the topic.", "suggested_refinement": null}]...
+[2025-10-19 16:31:55] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:31:55] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:32:01] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:32:01] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": false,
+    "comments": "Too vague, needs more specific numbers or context",
+    "suggested_refinement": null
+  }
+]...
+[2025-10-19 16:32:01] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:32:01] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:32:48] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:32:48] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"Correct calculation and answer; question wording could be clearer regarding currency formatting and units.","suggested_refinement":{"type":"Open-ended","question":"If 0.01 kg of rice costs ฿0.50, what is the cost of 1 kg of rice?","answer":"฿50","difficulty":"Medium"}}]...
+[2025-10-19 16:32:48] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:32:48] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:32:58] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:32:58] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": true,
+    "comments": "Clear and directly assesses understanding of unit conversion.",
+    "suggested_refinement": null
+  }
+]...
+[2025-10-19 16:32:58] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:32:58] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:33:04] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:33:04] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "The question is too simplistic and does not require critical thinking or application of place value, rounding and decimals concepts.",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 16:33:04] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:33:04] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:33:53] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:33:53] [DEBUG] Raw model output: [{"index":0,"approved":false,"comments":"Question is correct but difficulty is mislabelled; it should be Easy. Consider rephrasing for clarity.","suggested_refinement":{"type":"Short answer","question":"Calculate 0.004 ÷ 0.01. Show your work.","answer":"0.4","difficulty":"Easy"}}]...
+[2025-10-19 16:33:53] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:33:53] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:34:05] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:34:05] [DEBUG] Raw model output: [{"index": 0, "approved": false, "comments": "Division by decimals can be challenging for this topic. Consider a simpler operation like multiplication.", "suggested_refinement": {"type": "Open-ended", "question": "Find 0.004 x 100", "answer": "0.4", "difficulty": "Medium"}}]...
+[2025-10-19 16:34:05] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:34:05] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:34:11] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:34:11] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "Question is missing type of rounding and place value in context",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 16:34:11] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:34:11] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:35:38] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:35:38] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"The question is clear and the answer is correct, but the difficulty rating is too high for a simple division problem. Suggested refinement provided to match a more appropriate difficulty level.","suggested_refinement":{"type":"Open-ended","question":"A tank contains 0.275 litres. How many 0.01 L bottles can be filled, rounding to the nearest whole bottle?","answer":"28","difficulty":"Medium"}}]...
+[2025-10-19 16:35:38] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:35:38] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:35:47] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:35:47] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Clear and concise. Difficulty is appropriate.", "suggested_refinement": null}]...
+[2025-10-19 16:35:47] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:35:47] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:35:53] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:35:53] [DEBUG] Raw model output: ```
+[
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "This is an open-ended question. It should be multiple-choice or true/false.",
+        "suggested_refinement": null
+    }
+]
+```...
+[2025-10-19 16:35:53] [DEBUG] Direct JSON parsing failed, attempting regex extraction
+[2025-10-19 16:35:53] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:35:53] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:36:37] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:36:37] [DEBUG] Raw model output: [{"index":0,"approved":false,"comments":"The question wording is ambiguous; asking what the result represents in metres is redundant since the result is already in metres. The difficulty is likely lower than medium.","suggested_refinement":{"type":"Open-ended","question":"A rope measures 0.48 m. If you multiply its length by 0.1, what is the new length in metres?","answer":"0.048 m","difficulty":"Medium"}}]...
+[2025-10-19 16:36:37] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:36:37] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:36:46] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:36:46] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Good open-ended question that tests understanding of multiplication with decimals.", "suggested_refinement": null}]...
+[2025-10-19 16:36:46] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:36:46] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:36:53] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:36:53] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": true,
+        "comments": "",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 16:36:53] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:36:53] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:37:27] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:37:27] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"The question is clear, correctly aligned with the topic, and the provided answer is accurate.","suggested_refinement":null}]...
+[2025-10-19 16:37:27] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:37:27] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:37:36] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:37:36] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Clear and concise.", "suggested_refinement": null}]...
+[2025-10-19 16:37:36] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:37:36] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:37:42] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:37:42] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "The division operation is not clearly defined. Is it a specific example or a general rule?",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 16:37:42] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:37:42] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:38:57] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:38:57] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"Correct and clear proportion question; difficulty should be moderate, not difficult.","suggested_refinement":{"type":"Open-ended","question":"A farmer sells 0.1 tonne of corn for ฿320. Assuming the price per tonne remains constant, how much would he sell 0.25 tonne for?","answer":"฿800","difficulty":"Moderate"}}]...
+[2025-10-19 16:38:57] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:38:57] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:39:13] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:39:13] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": false,
+    "comments": "Assumes a linear relationship between weight and price, which is unlikely for real-world scenarios. The farmer might offer different pricing per tonne.",
+    "suggested_refinement": {
+      "type": "Open-ended",
+      "question": "A farmer sells 0.1 tonnes of corn for ฿320. Explain how you would find the price of 0.25 tonnes of corn. You might need to consider factors like discounts for bulk purchases or variations in quality.",
+     ...
+[2025-10-19 16:39:13] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:39:13] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:39:20] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:39:20] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "The answer should be a calculation based on the given information.",
+        "suggested_refinement": {
+            "type": "Open-ended",
+            "question": "A farmer sells 0.1 tonne of corn for ฿3200 (assuming ฿32 per unit). If each unit is 0.25 tonnes, how much is it sold for?",
+            "answer": null,
+            "difficulty": "Difficult"
+        }
+    }
+]...
+[2025-10-19 16:39:20] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:39:20] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:40:31] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:40:31] [DEBUG] Raw model output: [{"index":0,"approved":false,"comments":"The phrase \"10 times larger\" is vague; it should specify what it is compared to and explain the decimal shift more clearly.","suggested_refinement":{"type":"Open-ended","question":"When you divide 6.3 by 0.1, you get 63. Explain why the result is 10 times larger than the original number 6.3. What effect does dividing by 0.1 have on the magnitude of a number?","answer":"Dividing by 0.1 is equivalent to multiplying by 10 because 0.1 equals 1/10. This oper...
+[2025-10-19 16:40:31] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:40:31] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:40:46] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:40:46] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Good explanation needed for beginners.", "suggested_refinement": {"type": "Open-ended", "question": "If dividing 6.3 by 0.1 gives 63, explain why the answer is 10 times larger than 6.3. Think about what happens to the decimal point when you divide by a number less than 1.", "answer": "Because dividing by 0.1 moves the decimal one place to the right, which is the same as multiplying by 10.  Therefore, the answer is 10 times larger than 6.3.", "difficul...
+[2025-10-19 16:40:46] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:40:46] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:40:53] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:40:53] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": false,
+    "comments": "Question is open-ended but difficulty level is mixed. It should be either easy or difficult.",
+    "suggested_refinement": null
+  }
+]...
+[2025-10-19 16:40:53] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:40:53] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:41:26] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:41:26] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"Correct question and answer. It is clear, simple, and appropriate for the stated difficulty level.","suggested_refinement":null}]...
+[2025-10-19 16:41:26] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:41:26] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:41:36] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:41:36] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": true,
+    "comments": "Good basic multiplication problem with decimals.",
+    "suggested_refinement": null
+  }
+]...
+[2025-10-19 16:41:36] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:41:36] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:41:42] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:41:42] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "Question is too simple for Mixed difficulty. Difficulty level should be adjusted.",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 16:41:42] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:41:42] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:42:59] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:42:59] [DEBUG] Raw model output: [{"index":0,"approved":false,"comments":"The calculation is straightforward and the answer 0.5 litres is correct. However, labeling the question as 'Difficult' is inconsistent; the problem is actually quite easy. The difficulty level should be adjusted or the problem should be made more complex.","suggested_refinement":{"type":"Open-ended","question":"A car uses 0.053 litres of fuel per 0.12 km. How many litres of fuel will it consume over a distance of 3.4 km? Round your answer to two decimal p...
+[2025-10-19 16:42:59] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:42:59] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:43:08] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:43:08] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Appropriate difficulty level.", "suggested_refinement": null}]...
+[2025-10-19 16:43:08] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:43:08] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:43:15] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:43:15] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "Question lacks a multiple choice or numerical answer option. Consider adding one to increase test-taker engagement and accuracy.",
+        "suggested_refinement": {
+            "type": "Multiple Choice",
+            "question": "A car uses 0.05 litres of fuel per 0.1 km. How much fuel for 1 km?",
+            "answers": ["0.25 litres", "0.5 litres", "0.75 litres"],
+            "answer": "0.5 litres"
+        }
+    }
+]...
+[2025-10-19 16:43:15] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:43:15] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:43:49] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:43:49] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Clear wording, correct answer, and appropriate difficulty level.", "suggested_refinement": null}]...
+[2025-10-19 16:43:49] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:43:49] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:43:59] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:43:59] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Clear and concise.  Assesses understanding of decimal division.", "suggested_refinement": null}]...
+[2025-10-19 16:43:59] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:43:59] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:44:06] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:44:06] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": false,
+    "comments": "The question is not clearly defined for a multiple-choice or numeric response.",
+    "suggested_refinement": {
+      "type": "Multiple-choice",
+      "question": "What is the result of dividing 7 thousandths by 10 thousandths?",
+      "A": "0.1",
+      "B": "0.5",
+      "C": "0.7",
+      "D": "0.9"
+    }
+  }
+]...
+[2025-10-19 16:44:06] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:44:06] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:44:39] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:44:39] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"Clear, appropriate difficulty, and correct answer provided.","suggested_refinement":null}]...
+[2025-10-19 16:44:39] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:44:39] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:44:49] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:44:49] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": true,
+    "comments": "Good use of a concrete example to illustrate decimal place value shifting.",
+    "suggested_refinement": null
+  }
+]...
+[2025-10-19 16:44:49] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:44:49] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:44:56] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:44:56] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "Question is open-ended but expects a numerical answer",
+        "suggested_refinement": {
+            "type": "Multiple Choice",
+            "question": "Multiply 7.2 by 0.01:)",
+            "answers": ["72", "0.072", "7.2", "0.00072"],
+            "correctAnswer": "0.072"
+        }
+    }
+]...
+[2025-10-19 16:44:56] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:44:56] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:45:29] [DEBUG] Ollama API success for model gpt-oss:20b
+[2025-10-19 16:45:29] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"Correct question and answer. No changes needed.","suggested_refinement":null}]...
+[2025-10-19 16:45:29] [DEBUG] Batch evaluation succeeded for gpt-oss:20b
+[2025-10-19 16:45:29] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 16:45:42] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 16:45:42] [DEBUG] Raw model output: [{"index": 0, "approved": false, "comments": "Assumes a whole number of bottles, doesn't account for leftover juice.", "suggested_refinement": {"type": "Open-ended", "question": "A bottle contains 0.1 L of juice. How many bottles are needed to have at least 2.5 L of juice?", "answer": "25 bottles", "difficulty": "Medium"}}]...
+[2025-10-19 16:45:42] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 16:45:42] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 16:45:49] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 16:45:49] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "The answer '25 bottles' seems too straightforward. Consider adding a context or complexity to the question.",
+        "suggested_refinement": {
+            "type": "Open-ended",
+            "question": "A bottle contains 0.1 L of juice. If each serving size is 0.05 L, how many bottles are needed for at least 2.5 L?",
+            "answer": null,
+            "difficulty": "Medium"
+        }
+    }
+]...
+[2025-10-19 16:45:49] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 16:45:49] [DEBUG] Ollama API call attempt 1 for model gpt-oss:20b
+[2025-10-19 16:55:51] [ERROR] Ollama API call failed for model gpt-oss:20b (attempt 1): HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+[2025-10-19 16:55:51] [DEBUG] Ollama API call attempt 2 for model gpt-oss:20b
+[2025-10-19 17:05:53] [ERROR] Ollama API call failed for model gpt-oss:20b (attempt 2): HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+[2025-10-19 17:05:53] [WARNING] Model gpt-oss:20b failed after 2 attempts
+[2025-10-19 17:05:53] [WARNING] No response from primary model for refinements
+[2025-10-19 17:05:53] [INFO] Saved refined JSON: Activities_Refined\Chapter 7 Quiz – Multiplying and Dividing by 0.1 and 0.01.json
+[2025-10-19 17:05:53] [INFO] Changes report saved: Activities_Refined\changes_report_Chapter 7 Quiz – Multiplying and Dividing by 0.1 and 0.01.json.txt
+[2025-10-19 17:05:53] [INFO] All activities processed.
+[2025-10-19 17:18:28] [INFO] Starting per-question evaluation of all activities...
+[2025-10-19 17:18:30] [INFO] Ollama server is responsive
+[2025-10-19 17:18:32] [INFO] Available models: ['mistral:7b', 'gemma2:9b', 'llama3.1:8b', 'codellama:13b', 'llama3:8b', 'gemma2:27b', 'qwen3:30b', 'Lazysniper/HorizaEdu:latest', 'deepseek-r1:14b', 'gpt-oss:20b', 'llama3.1:8b-instruct-q4_0']
+[2025-10-19 17:18:32] [INFO] Processing activity file: Chapter 7 Quiz – Multiplying and Dividing by 0.1 and 0.01.json
+[2025-10-19 17:18:32] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:18:43] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:18:43] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": true,
+    "comments": "Good basic multiplication with decimals question.",
+    "suggested_refinement": null
+  }
+]...
+[2025-10-19 17:18:43] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:18:43] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:18:51] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:18:51] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": false,
+    "comments": "Too easy, lacks precision",
+    "suggested_refinement": {
+      "type": "MCQ",
+      "question": "What is the result of multiplying 25 by a decimal value?",
+      "options": ["250", "2.5", "0.25", "0.025"],
+      "answer": "2.5",
+      "difficulty": "Medium"
+    }
+  }
+]...
+[2025-10-19 17:18:51] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:18:51] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:18:56] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:18:56] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Correct question for testing understanding of multiplication with decimals.", "suggested_refinement": null}]...
+[2025-10-19 17:18:56] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:18:56] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:19:03] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:19:03] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Good basic division problem.", "suggested_refinement": null}]...
+[2025-10-19 17:19:03] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:19:03] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:19:08] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:19:08] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "The answer should not be an option",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 17:19:08] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:19:08] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:19:14] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:19:14] [DEBUG] Raw model output: [{"index": 0, "approved": false, "comments": "'3.2 ÷ 0.1' results in an error because division by zero is undefined in mathematics.", "suggested_refinement": { "question": "What is the result of multiplying 3.2 by 0.1?"}}]...
+[2025-10-19 17:19:14] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:19:14] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:19:22] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:19:22] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": true,
+    "comments": "Appropriate for mixed difficulty. Could benefit from a visual aid.",
+    "suggested_refinement": null
+  }
+]...
+[2025-10-19 17:19:22] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:19:22] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:19:28] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:19:28] [DEBUG] Raw model output: [{"index": 0, "approved": false, "comments": "This question requires a calculation, but the answer is not a multiple choice option.", "suggested_refinement": {"type": "MCQ", "question": "A rope is 12 m long. If each piece is 0.1 m, how many pieces can be cut?", "options": ["1.2", "12", "120", "1200"], "answer": "120", "difficulty": "Medium"}}]...
+[2025-10-19 17:19:28] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:19:28] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:19:33] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:19:33] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Question is well-formed and appropriate for the given topic.", "suggested_refinement": null}]...
+[2025-10-19 17:19:33] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:19:33] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:19:40] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:19:40] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": null, "suggested_refinement": null}]...
+[2025-10-19 17:19:40] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:19:40] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:19:45] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:19:45] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "The option '48 × 100' is correct. However, the options should also include other operations with place value to make it more challenging.",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 17:19:45] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:19:45] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:19:51] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:19:51] [DEBUG] Raw model output: [{"index": 0, "approved": false, "comments": "Incorrect operation. Correct answer should be '48 × 10' (or '480') not '48 × 100'.", "suggested_refinement": null}]...
+[2025-10-19 17:19:51] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:19:51] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:20:04] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:20:04] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": false,
+    "comments": "The conversion factor is unclear in the question. Consider rephrasing to explicitly state that 1 tonne = 1000 litres.",
+    "suggested_refinement": {
+      "type": "MCQ",
+      "question": "A tank holds 0.05 tonnes of water. Knowing that 1 tonne equals 1000 litres, how many litres is that?",
+      "options": ["5 L", "50 L", "500 L", "5000 L"],
+      "answer": "50 L",
+      "difficulty": "Difficult"
+    }
+  }
+]...
+[2025-10-19 17:20:04] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:20:04] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:20:11] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:20:11] [DEBUG] Raw model output: [{"index": 0, "approved": false, "comments": "The options do not match the answer choice. The correct option should be 500 L.", "suggested_refinement": {"type": "MCQ", "question": "A tank holds 0.05 tonnes of water. How many litres is that? (1 tonne = 1000 L)", "options": ["5 L", "50 L", "500 L", "5000 L"], "answer": "500 L", "difficulty": "Difficult"}}]...
+[2025-10-19 17:20:11] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:20:11] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:20:16] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:20:16] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": true,
+    "comments": "Correctly formatted question for the given topic and difficulty.",
+    "suggested_refinement": null
+  }
+]...
+[2025-10-19 17:20:16] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:20:16] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:20:28] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:20:28] [DEBUG] Raw model output: [{"index": 0, "approved": false, "comments": "The statement is true only for multiplying by 0.1 in base 10.  It's not accurate for other bases.", "suggested_refinement": {"type": "True/False", "question": "Multiplying a number by 0.1 makes it ten times smaller in the decimal system (base 10).", "options": ["Correct", "Wrong"], "answer": "Correct", "difficulty": "Easy"}}]...
+[2025-10-19 17:20:28] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:20:28] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:20:34] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:20:34] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "The statement is misleading. Multiplying by 0.1 makes it ten times smaller in decimal form, but not necessarily in value.",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 17:20:34] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:20:34] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:20:38] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:20:38] [DEBUG] Raw model output: [{"index": 0, "approved": "true", "comments": "This question is correct as stated.", "suggested_refinement": null}]...
+[2025-10-19 17:20:38] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:20:38] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:20:50] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:20:50] [DEBUG] Raw model output: [{"index": 0, "approved": false, "comments": "Dividing by a decimal less than 1 makes a number larger, but not necessarily 100 times.  It's more accurate to say it makes the number 100 times *greater*.", "suggested_refinement": {"type": "True/False", "question": "Dividing a number by 0.01 makes the number 100 times greater.", "options": ["Correct", "Wrong"], "answer": "Correct", "difficulty": "Medium"}}]...
+[2025-10-19 17:20:50] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:20:50] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:20:56] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:20:56] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": true,
+        "comments": "",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 17:20:56] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:20:56] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:21:02] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:21:02] [DEBUG] Raw model output: [{"index": 0, "approved": "true", "comments": "'Dividing by 0.01 does not make a number 100 times larger', but it does decrease the number by 100. Instead, consider 'Multiplying a number by 100 can be achieved by dividing it by 0.01.'", "suggested_refinement": {"question": "Multiplying a number by 100 can be achieved by dividing it by what?", "options": ["0.0001", "0.01", "10", "None of the above"], "answer": "0.01", "difficulty": "Medium"}}]...
+[2025-10-19 17:21:02] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:21:02] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:21:15] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:21:15] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": false,
+    "comments": "The calculation is incorrect. 0.01 x 300 = 3.",
+    "suggested_refinement": {
+      "type": "True/False",
+      "question": "0.01 × 300 = 3.",
+      "options": ["Correct", "Wrong"],
+      "answer": "Correct",
+      "difficulty": "Easy"
+    }
+  }
+]...
+[2025-10-19 17:21:15] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:21:15] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:21:20] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:21:20] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "The product of 0.01 and 300 is actually 3.",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 17:21:20] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:21:20] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:21:26] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:21:26] [DEBUG] Raw model output: [{"index": 0, "approved": "true", "comments": "'0.01 × 300' is not equal to '30'. Correct multiplication should result in '30.00'.", "suggested_refinement": null}]...
+[2025-10-19 17:21:26] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:21:26] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:21:34] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:21:34] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": true,
+    "comments": "Clearly states a valid concept about dividing by decimals.",
+    "suggested_refinement": null
+  }
+]...
+[2025-10-19 17:21:34] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:21:34] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:21:40] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:21:40] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "Question is a True/False statement but it's too straightforward and lacks an actual calculation to evaluate.",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 17:21:40] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:21:40] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:21:45] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:21:45] [DEBUG] Raw model output: [{"index": 0, "approved": "true", "comments": "This question is correct and clear.", "suggested_refinement": null}]...
+[2025-10-19 17:21:45] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:21:45] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:22:00] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:22:00] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": false,
+    "comments": "The statement is too absolute. Dividing by a small decimal can result in a larger number depending on the context.",
+    "suggested_refinement": {
+      "type": "True/False",
+      "question": "If a number becomes smaller after dividing by 0.01, it's likely that the original number was greater than 100.",
+      "options": ["Correct", "Wrong"],
+      "answer": "Correct",
+      "difficulty": "Medium"
+    }
+  }
+]...
+[2025-10-19 17:22:00] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:22:00] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:22:05] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:22:05] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "The statement is misleading. A number may become larger after dividing by 0.01 if the original number is a non-integer multiple of 100.",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 17:22:05] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:22:05] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:22:10] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:22:10] [DEBUG] Raw model output: [{"index": 0, "approved": "true", "comments": "The statement is incorrect because division by zero is undefined in mathematics.", "suggested_refinement": null}]...
+[2025-10-19 17:22:10] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:22:10] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:22:17] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:22:17] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Clear and concise.", "suggested_refinement": null}]...
+[2025-10-19 17:22:17] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:22:17] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:22:23] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:22:23] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": true,
+        "comments": "",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 17:22:23] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:22:23] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:22:28] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:22:28] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "This question is correctly structured and appropriate for the given topic.", "suggested_refinement": null}]...
+[2025-10-19 17:22:28] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:22:28] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:22:35] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:22:35] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Clear and straightforward. Good for checking basic understanding of division with decimals.", "suggested_refinement": null}]...
+[2025-10-19 17:22:35] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:22:35] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:22:41] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:22:41] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "Division by zero is undefined.",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 17:22:41] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:22:41] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:22:46] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:22:46] [DEBUG] Raw model output: [{"index": 0, "approved": false, "comments": "The given operation is undefined as it involves division by zero.", "suggested_refinement": null}]...
+[2025-10-19 17:22:46] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:22:46] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:22:53] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:22:53] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Appropriate for difficulty level.", "suggested_refinement": null}]...
+[2025-10-19 17:22:53] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:22:53] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:22:59] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:22:59] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "Lack of clear calculation steps",
+        "suggested_refinement": {
+            "type": "Open-ended",
+            "question": "Calculate the product of 0.9 and 0.01, showing your step-by-step calculations.",
+            "answer": null,
+            "difficulty": "Easy"
+        }
+    }
+]...
+[2025-10-19 17:22:59] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:22:59] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:23:04] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:23:04] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "This question is correct and answers the calculation of multiplying decimal numbers.", "suggested_refinement": null}]...
+[2025-10-19 17:23:04] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:23:04] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:23:11] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:23:11] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": null, "suggested_refinement": null}]...
+[2025-10-19 17:23:11] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:23:11] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:23:17] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:23:17] [DEBUG] Raw model output: ```
+[
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "Missing decimal place in answer",
+        "suggested_refinement": null
+    }
+]
+```...
+[2025-10-19 17:23:17] [DEBUG] Direct JSON parsing failed, attempting regex extraction
+[2025-10-19 17:23:17] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:23:17] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:23:21] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:23:21] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "This question is clear and concise.", "suggested_refinement": null}]...
+[2025-10-19 17:23:21] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:23:21] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:23:30] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:23:30] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": true,
+    "comments": "Clear and appropriate for the topic.",
+    "suggested_refinement": null
+  }
+]...
+[2025-10-19 17:23:30] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:23:30] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:23:35] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:23:35] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": false,
+    "comments": "Question type should be Multiple choice or Short answer for this difficulty level.",
+    "suggested_refinement": null
+  }
+]...
+[2025-10-19 17:23:35] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:23:35] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:23:41] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:23:41] [DEBUG] Raw model output: [{"index": 0, "approved": false, "comments": "'2.5 ÷ 0.01' is a division of decimal numbers. The correct operation for this would be multiplication because multiplying by 0.01 gives the original number. Thus, the answer should be '2500'.", "suggested_refinement": {"type": "Open-ended", "question": "What is the result of multiplying 2.5 by 0.01?"}}]...
+[2025-10-19 17:23:41] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:23:41] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:23:48] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:23:48] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Clear and straightforward. Checks understanding of division with decimals.", "suggested_refinement": null}]...
+[2025-10-19 17:23:48] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:23:48] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:23:53] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:23:53] [DEBUG] Raw model output: [{"index":0,"approved":true,"comments":"","suggested_refinement":null}]...
+[2025-10-19 17:23:53] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:23:53] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:23:59] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:23:59] [DEBUG] Raw model output: [{"index": 0, "approved": false, "comments": "The question asks for division of a whole number by a decimal. This operation is undefined in standard arithmetic. To make the question valid, consider changing it to 'Find 16 * 0.01' or providing context that justifies the division operation.", "suggested_refinement": {"type": "Open-ended", "question": "Calculate the product of 16 and 0.01"}}]...
+[2025-10-19 17:23:59] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:23:59] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:24:08] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:24:08] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": true,
+    "comments": "Clear and directly assesses understanding of place value and multiplication with decimals.",
+    "suggested_refinement": null
+  }
+]...
+[2025-10-19 17:24:08] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:24:08] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:24:14] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:24:14] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "This is an open-ended question and should be replaced with a multiple-choice question for difficulty level 'Mixed'",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 17:24:14] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:24:14] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:24:19] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:24:19] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "'฿' is the symbol for Thai Baht currency. The student saves ฿0.1 each day. To find out how much he/she saves in 365 days, multiply the amount saved per day by the number of days. Therefore, the answer would be 0.1 * 365 = 36.5", "suggested_refinement": null}]...
+[2025-10-19 17:24:19] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:24:19] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:24:26] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:24:26] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": null, "suggested_refinement": null}]...
+[2025-10-19 17:24:26] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:24:26] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:24:32] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:24:32] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "This question lacks a clear multiple choice option. Consider revising it to include options.",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 17:24:32] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:24:32] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:24:37] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:24:37] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "This question is clear and well-structured.", "suggested_refinement": null}]...
+[2025-10-19 17:24:37] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:24:37] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:24:45] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:24:45] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": true,
+    "comments": "Appropriate difficulty level for students who have mastered decimal division.",
+    "suggested_refinement": null
+  }
+]...
+[2025-10-19 17:24:45] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:24:45] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:24:51] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:24:51] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "Lack of clarity on expected answer format",
+        "suggested_refinement": {
+            "type": "Open-ended",
+            "question": "Find the quotient when 0.004 is divided by 0.01, in decimal form.",
+            "answer": "0.4",
+            "difficulty": "Difficult"
+        }
+    }
+]...
+[2025-10-19 17:24:51] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:24:51] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:24:56] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:24:56] [DEBUG] Raw model output: [{"index": 0, "approved": false, "comments": "In mathematics, division by zero is undefined. Therefore, the question 'Find 0.004 ÷ 0.01' cannot be answered.", "suggested_refinement": null}]...
+[2025-10-19 17:24:56] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:24:56] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:25:03] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:25:03] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Appropriate difficulty level.", "suggested_refinement": null}]...
+[2025-10-19 17:25:03] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:25:03] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:25:09] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:25:09] [DEBUG] Raw model output: ```
+[
+  {
+    "index": 0,
+    "approved": false,
+    "comments": "The answer should be a fraction or mixed number for precision.",
+    "suggested_refinement": null
+  }
+]
+```...
+[2025-10-19 17:25:09] [DEBUG] Direct JSON parsing failed, attempting regex extraction
+[2025-10-19 17:25:09] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:25:09] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:25:16] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:25:16] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Direct conversion of liters to bottles is not applicable since the tank contains a fraction of a liter and bottles come in whole units. To answer this question, you would first need to convert the fraction into whole numbers of 0.01 L (i.e., rounding up), then divide by the capacity of each bottle (0.01 L).", "suggested_refinement": {"type": "Multi-step", "questions": [{"question": "Round up 0.25 to the nearest whole number of 0.01 L.", "answer": "3",...
+[2025-10-19 17:25:16] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:25:16] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:25:23] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:25:23] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Clear and concise. Good check on understanding of decimal multiplication.", "suggested_refinement": null}]...
+[2025-10-19 17:25:23] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:25:23] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:25:29] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:25:29] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "The result represents the length in metres multiplied by 0.1",
+        "suggested_refinement": {
+            "type": "Open-ended",
+            "question": "A rope measures 0.48 m. If you multiply its length by 0.1, what does the result represent in meters?",
+            "answer": "0.048 m",
+            "difficulty": "Medium"
+        }
+    }
+]...
+[2025-10-19 17:25:29] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:25:29] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:25:35] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:25:35] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "The multiplication results in a decimal that represents 0.48 meters reduced by a factor of 10 (as 0.1 represents 0.1 times the original measurement), hence 0.048 meters.", "suggested_refinement": null}]...
+[2025-10-19 17:25:35] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:25:35] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:25:42] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:25:42] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": null, "suggested_refinement": null}]...
+[2025-10-19 17:25:42] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:25:42] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:25:47] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:25:47] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "Question is missing multiple-choice options. Rounding to a specific decimal place is not considered.",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 17:25:47] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:25:47] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:25:53] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:25:53] [DEBUG] Raw model output: [{"index": 0, "approved": false, "comments": "Multiplication and division of decimals require a common denominator. The question as is, cannot be answered directly.", "suggested_refinement": {"type": "Open-ended", "question": "To find the result of 0.56 ÷ 0.1, first, multiply 0.56 by 10 to get 5.6 and then divide this number by the denominator (which remains as is), i.e., 5.6 ÷ 0.1"}}]...
+[2025-10-19 17:25:53] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:25:53] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:26:07] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:26:07] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": false,
+    "comments": "The calculation assumes a simple proportion, which may be too simplistic. Consider scenarios where pricing varies based on weight.",
+    "suggested_refinement": {
+      "type": "Open-ended",
+      "question": "A farmer sells 0.1 tonne of corn for ฿320.  Explain how you would determine the price of 0.25 tonnes, considering that pricing might vary based on weight or other factors.",
+      "answer": "",
+      "difficulty": "Difficult"
+  ...
+[2025-10-19 17:26:07] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:26:07] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:26:13] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:26:13] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": false,
+    "comments": "The unit price of the corn is not given. To answer this question, the price per tonne needs to be calculated or provided.",
+    "suggested_refinement": {
+      "type": "Open-ended",
+      "question": "A farmer sells 0.1 tonne of corn for ฿320. What is the unit price (฿/tonne)? If so, how much is 0.25 tonne?",
+      "answer": "",
+      "difficulty": "Difficult"
+    }
+  }
+]...
+[2025-10-19 17:26:13] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:26:13] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:26:20] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:26:20] [DEBUG] Raw model output: [{"index": 0, "approved": false, "comments": "The given question asks to find the cost of selling 0.25 tonnes of corn, but it is not clear whether the price per tonne remains the same as in the first example (฿320 per tonne). To make this question more accurate, it should specify that the price per tonne remains the same.", "suggested_refinement": {"type": "Open-ended", "question": "If 0.1 tonne of corn costs ฿320, how much does 0.25 tonnes cost?"}}]...
+[2025-10-19 17:26:20] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:26:20] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:26:27] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:26:27] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": true,
+    "comments": "Good explanation provided in the answer key.",
+    "suggested_refinement": null
+  }
+]...
+[2025-10-19 17:26:27] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:26:27] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:26:33] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:26:33] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "This is an open-ended question, but the answer should be in the format of a brief explanation. The provided answer is already correct.",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 17:26:33] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:26:33] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:26:39] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:26:39] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": false,
+    "comments": "The given answer does not match the correct mathematical process. The answer should be 'Because multiplying by 10 moves the decimal one place left (same as ×10)'.",
+    "suggested_refinement": null
+  }
+]...
+[2025-10-19 17:26:39] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:26:39] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:26:45] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:26:45] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": null, "suggested_refinement": null}]...
+[2025-10-19 17:26:45] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:26:45] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:26:51] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:26:51] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "Question type should be multiple choice or short answer for mixed difficulty chapter",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 17:26:51] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:26:51] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:26:56] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:26:56] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Correct multiplication of decimals.", "suggested_refinement": null}]...
+[2025-10-19 17:26:56] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:26:56] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:27:03] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:27:03] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Appropriate level of difficulty.  The calculation is straightforward but requires understanding of decimals and unit conversions.", "suggested_refinement": null}]...
+[2025-10-19 17:27:03] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:27:03] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:27:10] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:27:10] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": false,
+    "comments": "Too easy for 'Difficult' level",
+    "suggested_refinement": {
+      "type": "Open-ended",
+      "question": "A car uses 0.05 litres of fuel per 0.1 km. Calculate the total amount of fuel used to travel 1 km.",
+      "answer": "0.5 litres",
+      "difficulty": "Medium"
+    }
+  }
+]...
+[2025-10-19 17:27:10] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:27:10] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:27:14] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:27:14] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "This question is appropriate and tests understanding of decimals multiplication.", "suggested_refinement": null}]...
+[2025-10-19 17:27:14] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:27:14] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:27:21] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:27:21] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": null, "suggested_refinement": null}]...
+[2025-10-19 17:27:21] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:27:21] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:27:27] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:27:27] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "Rounding is not explicitly stated as a requirement for the answer.",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 17:27:27] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:27:27] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:27:32] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:27:32] [DEBUG] Raw model output: [{"index": 0, "approved": false, "comments": "Multiplication is not defined for fractions. However, division can be performed as multiplication with the reciprocal. So, we first find the reciprocal of 0.01 (1/0.01 = 100) and then multiply it by 0.007. The result is approximately 70.", "suggested_refinement": null}]...
+[2025-10-19 17:27:32] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:27:32] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:27:45] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:27:45] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Good open-ended question.  Could benefit from specifying the number of significant figures in the expected answer.", "suggested_refinement": {"type": "Open-ended", "question": "Multiply 7.2 by 0.01 and explain what happens to the decimal point. Round your answer to three significant figures.", "answer": "7.2 × 0.01 = 0.072 (the decimal moves two places left).", "difficulty": "Medium"}}]...
+[2025-10-19 17:27:45] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:27:45] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:27:50] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:27:50] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "The question is open-ended, but it requires a specific numerical answer. Consider changing the type to Multiple Choice or Short Answer.",
+        "suggested_refinement": null
+    }
+]...
+[2025-10-19 17:27:50] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:27:50] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:27:55] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:27:55] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Question is clear and appropriate for the topic.", "suggested_refinement": null}]...
+[2025-10-19 17:27:55] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:27:55] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:28:02] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:28:02] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "Good use of a practical scenario.", "suggested_refinement": null}]...
+[2025-10-19 17:28:02] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:28:02] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:28:09] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:28:09] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "Too broad; needs specific numbers and operations",
+        "suggested_refinement": {
+            "type": "Open-ended",
+            "question": "If a bottle contains 0.1 L of juice, how many bottles would be needed to obtain a total volume of 2.5 L?",
+            "answer": "25 bottles",
+            "difficulty": "Medium"
+        }
+    }
+]...
+[2025-10-19 17:28:09] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:28:09] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:28:14] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:28:14] [DEBUG] Raw model output: [{"index": 0, "approved": false, "comments": "This question can lead to non-unique answers due to the possibility of fractional bottles. Instead, consider a question that asks for whole bottles or suggest a modification to account for partial bottles.", "suggested_refinement": {"question": "How many 1-liter bottles can approximately hold 2.5 L of juice?"}}]...
+[2025-10-19 17:28:14] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:28:14] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:28:36] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:28:36] [DEBUG] Raw model output: Here is the Python code to refine each question based on the provided feedback:
+
+```python
+import json
+
+data = json.load(open('data.json'))  # assuming 'data.json' contains the original data
+
+def refine_question(question):
+    refined_question = {}
+    
+    if "approved" in question:
+        if not question["approved"]:
+            refinement_comments = ""
+            
+            if "comments" in question:
+                for comment in question["comments"]:
+                    if comment.start...
+[2025-10-19 17:28:36] [DEBUG] Direct JSON parsing failed, attempting regex extraction
+[2025-10-19 17:28:36] [WARNING] Failed to parse JSON candidate: Extra data: line 3 column 5 (char 12)
+[2025-10-19 17:28:36] [WARNING] All JSON extraction methods failed
+[2025-10-19 17:28:36] [WARNING] Invalid refinement response from primary model
+[2025-10-19 17:28:36] [INFO] Saved refined JSON: Activities_Refined\Chapter 7 Quiz – Multiplying and Dividing by 0.1 and 0.01.json
+[2025-10-19 17:28:36] [INFO] Changes report saved: Activities_Refined\changes_report_Chapter 7 Quiz – Multiplying and Dividing by 0.1 and 0.01.json.txt
+[2025-10-19 17:28:36] [INFO] All activities processed.
+[2025-10-19 17:34:59] [INFO] Starting per-question evaluation of all activities...
+[2025-10-19 17:35:01] [INFO] Ollama server is responsive
+[2025-10-19 17:35:03] [INFO] Available models: ['mistral:7b', 'gemma2:9b', 'llama3.1:8b', 'codellama:13b', 'llama3:8b', 'gemma2:27b', 'qwen3:30b', 'Lazysniper/HorizaEdu:latest', 'deepseek-r1:14b', 'gpt-oss:20b', 'llama3.1:8b-instruct-q4_0']
+[2025-10-19 17:37:49] [INFO] Starting per-question evaluation of all activities...
+[2025-10-19 17:37:51] [INFO] Ollama server is responsive
+[2025-10-19 17:37:53] [INFO] Available models: ['mistral:7b', 'gemma2:9b', 'llama3.1:8b', 'codellama:13b', 'llama3:8b', 'gemma2:27b', 'qwen3:30b', 'Lazysniper/HorizaEdu:latest', 'deepseek-r1:14b', 'gpt-oss:20b', 'llama3.1:8b-instruct-q4_0']
+[2025-10-19 17:41:04] [INFO] Starting per-question evaluation of all activities...
+[2025-10-19 17:41:06] [INFO] Ollama server is responsive
+[2025-10-19 17:41:08] [INFO] Available models: ['mistral:7b', 'gemma2:9b', 'llama3.1:8b', 'codellama:13b', 'llama3:8b', 'gemma2:27b', 'qwen3:30b', 'Lazysniper/HorizaEdu:latest', 'deepseek-r1:14b', 'gpt-oss:20b', 'llama3.1:8b-instruct-q4_0']
+[2025-10-19 17:41:08] [INFO] Processing activity file: Chapter 7 Quiz – Multiplying and Dividing by 0.1 and 0.01.json
+[2025-10-19 17:41:08] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:41:28] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:41:28] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "", "suggested_refinement": null}, {"index": 1, "approved": true, "comments": "", "suggested_refinement": null}, {"index": 2, "approved": true, "comments": "", "suggested_refinement": null}, {"index": 3, "approved": true, "comments": "", "suggested_refinement": null}, {"index": 4, "approved": false, "comments": "Assumption about conversion needed. Should state that the question assumes a direct conversion (1 tonne = 1000 L) for simplicity.", "suggested...
+[2025-10-19 17:41:28] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:41:28] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:41:40] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:41:40] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": true,
+    "comments": "",
+    "suggested_refinement": null
+  },
+  {
+    "index": 1,
+    "approved": false,
+    "comments": "This question does not test rounding and decimals. It should be reworded to focus on this topic.",
+    "suggested_refinement": {"type": "MCQ", "question": "Rounding 3.2 ÷ 0.1 to the nearest whole number, what is the result?", "options": ["32", "30", "31", "33"], "answer": "32", "difficulty": "Easy"}
+  },
+  {
+    "index": 2,
+    "approve...
+[2025-10-19 17:41:40] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:41:40] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:41:47] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:41:47] [DEBUG] Raw model output: [
+  {"index": 0, "approved": true, "comments": "", "suggested_refinement": null},
+  {"index": 1, "approved": true, "comments": "", "suggested_refinement": null},
+  {"index": 2, "approved": true, "comments": "", "suggested_refinement": null},
+  {"index": 3, "approved": true, "comments": "", "suggested_refinement": null},
+  {"index": 4, "approved": true, "comments": "", "suggested_refinement": null}
+]...
+[2025-10-19 17:41:47] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:44:53] [INFO] Starting per-question evaluation of all activities...
+[2025-10-19 17:44:55] [INFO] Ollama server is responsive
+[2025-10-19 17:44:57] [INFO] Available models: ['mistral:7b', 'gemma2:9b', 'llama3.1:8b', 'codellama:13b', 'llama3:8b', 'gemma2:27b', 'qwen3:30b', 'Lazysniper/HorizaEdu:latest', 'deepseek-r1:14b', 'gpt-oss:20b', 'llama3.1:8b-instruct-q4_0']
+[2025-10-19 17:44:57] [INFO] Processing activity file: Chapter 7 Quiz – Multiplying and Dividing by 0.1 and 0.01.json
+[2025-10-19 17:44:57] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:45:15] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:45:15] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": null, "suggested_refinement": null}, {"index": 1, "approved": true, "comments": null, "suggested_refinement": null}, {"index": 2, "approved": true, "comments": null, "suggested_refinement": null}, {"index": 3, "approved": true, "comments": null, "suggested_refinement": null}, {"index": 4, "approved": false, "comments": "Units are missing in the question. Should be 'How many litres is that? (1 tonne = 1000 L)'", "suggested_refinement": {"type": "MCQ", "...
+[2025-10-19 17:45:15] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:45:15] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:45:26] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:45:26] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "The options do not match the answer format (e.g., expected a decimal)",
+        "suggested_refinement": null
+    },
+    {
+        "index": 1,
+        "approved": true,
+        "comments": "",
+        "suggested_refinement": null
+    },
+    {
+        "index": 2,
+        "approved": false,
+        "comments": "The question is wordy and could be rephrased for clarity",
+        "suggested_refinement": {
+            "type": "...
+[2025-10-19 17:45:26] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:45:26] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:45:33] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:45:33] [DEBUG] Raw model output: [
+  {"index": 0, "approved": true, "comments": "", "suggested_refinement": null},
+  {"index": 1, "approved": true, "comments": "", "suggested_refinement": null},
+  {"index": 2, "approved": true, "comments": "", "suggested_refinement": null},
+  {"index": 3, "approved": true, "comments": "", "suggested_refinement": null},
+  {"index": 4, "approved": true, "comments": "", "suggested_refinement": null}
+]...
+[2025-10-19 17:45:33] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:45:33] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:45:52] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:45:52] [DEBUG] Raw model output: [
+  {"index": 0, "approved": true, "comments": "Well-defined and easy to understand.", "suggested_refinement": null},
+  {"index": 1, "approved": true, "comments": "Clear and accurate.", "suggested_refinement": null},
+  {"index": 2, "approved": true, "comments": "Simple calculation check. Good for easy assessment.", "suggested_refinement": null},
+  {"index": 3, "approved": true, "comments": "Highlights a key concept related to decimal division.", "suggested_refinement": null},
+  {"index": 4, "app...
+[2025-10-19 17:45:52] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:45:52] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:46:00] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:46:00] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "Incorrect statement about multiplication",
+        "suggested_refinement": null
+    },
+    {
+        "index": 1,
+        "approved": true,
+        "comments": "",
+        "suggested_refinement": null
+    },
+    {
+        "index": 2,
+        "approved": false,
+        "comments": "Incorrect calculation",
+        "suggested_refinement": null
+    },
+    {
+        "index": 3,
+        "approved": true,
+        "comments": "",...
+[2025-10-19 17:46:00] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:46:00] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:46:09] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:46:09] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": true,
+    "comments": "Multiplying by 0.1 reduces a number by a factor of ten",
+    "suggested_refinement": null
+  },
+  {
+    "index": 1,
+    "approved": false,
+    "comments": "Division by 0.01 makes a number 100 times smaller, not larger.",
+    "suggested_refinement": null
+  },
+  {
+    "index": 2,
+    "approved": false,
+    "comments": "0.01 × 300 is 30, not 300",
+    "suggested_refinement": {
+      "question": "What is the result of multiplying 0.01 and 3...
+[2025-10-19 17:46:09] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:46:09] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:46:23] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:46:23] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "", "suggested_refinement": null}, {"index": 1, "approved": true, "comments": "", "suggested_refinement": null}, {"index": 2, "approved": true, "comments": "", "suggested_refinement": null}, {"index": 3, "approved": true, "comments": "", "suggested_refinement": null}, {"index": 4, "approved": true, "comments": "", "suggested_refinement": null}]...
+[2025-10-19 17:46:23] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:46:23] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:46:32] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:46:32] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "Question type should be specific (e.g. Multiple Choice) or it may lead to ambiguity",
+        "suggested_refinement": null
+    },
+    {
+        "index": 1,
+        "approved": true,
+        "comments": "",
+        "suggested_refinement": null
+    },
+    {
+        "index": 2,
+        "approved": false,
+        "comments": "The operation in the question does not match the answer provided",
+        "suggested_refinement": {...
+[2025-10-19 17:46:32] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:46:32] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:46:38] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:46:38] [DEBUG] Raw model output: [
+  {"index": 0, "approved": true, "comments": "", "suggested_refinement": null},
+  {"index": 1, "approved": true, "comments": "", "suggested_refinement": null},
+  {"index": 2, "approved": true, "comments": "", "suggested_refinement": null},
+  {"index": 3, "approved": true, "comments": "", "suggested_refinement": null},
+  {"index": 4, "approved": true, "comments": "", "suggested_refinement": null}
+]...
+[2025-10-19 17:46:38] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:46:38] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:46:55] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:46:55] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": null, "suggested_refinement": null}, {"index": 1, "approved": true, "comments": null, "suggested_refinement": null}, {"index": 2, "approved": true, "comments": null, "suggested_refinement": null}, {"index": 3, "approved": false, "comments": "The question could be made more realistic by introducing a context for the division.", "suggested_refinement": {"type": "Open-ended", "question": "A researcher needs to measure 0.4 grams of a chemical using a scale...
+[2025-10-19 17:46:55] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:46:55] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:47:04] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:47:04] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "Question is too simplistic; does not challenge understanding of place value and rounding.",
+        "suggested_refinement": null
+    },
+    {
+        "index": 1,
+        "approved": true,
+        "comments": "",
+        "suggested_refinement": null
+    },
+    {
+        "index": 2,
+        "approved": false,
+        "comments": "Question lacks clarity regarding currency and units.",
+        "suggested_refinement": {
+     ...
+[2025-10-19 17:47:04] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:47:04] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:47:13] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:47:13] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": true,
+    "comments": "No issues found.",
+    "suggested_refinement": null
+  },
+  {
+    "index": 1,
+    "approved": true,
+    "comments": "The answer should be rounded to two decimal places (฿36.49 or ฿36.50), as it involves currency.",
+    "suggested_refinement": {
+      "question": "A student saves ฿0.1 each day. How much in 365 days, rounding the answer to two decimal places?"
+    }
+  },
+  {
+    "index": 2,
+    "approved": true,
+    "comments": "No issues...
+[2025-10-19 17:47:13] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:47:13] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:47:29] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:47:29] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "", "suggested_refinement": null}, {"index": 1, "approved": true, "comments": "", "suggested_refinement": null}, {"index": 2, "approved": false, "comments": "Could be simplified by focusing on the unit price.", "suggested_refinement": {"type": "Open-ended", "question": "A farmer sells 0.1 tonne of corn for ฿320. What is the price per tonne?", "answer": "฿3200", "difficulty": "Difficult"}}, {"index": 3, "approved": true, "comments": "", "suggested_refin...
+[2025-10-19 17:47:29] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:47:29] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:47:37] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:47:37] [DEBUG] Raw model output: [
+    {
+        "index": 0,
+        "approved": false,
+        "comments": "Clarify the operation to be performed on 0.48 m",
+        "suggested_refinement": null
+    },
+    {
+        "index": 1,
+        "approved": true,
+        "comments": "",
+        "suggested_refinement": null
+    },
+    {
+        "index": 2,
+        "approved": false,
+        "comments": "Specify the price per unit of corn",
+        "suggested_refinement": null
+    },
+    {
+        "index": 3,
+        "approved": true,
+   ...
+[2025-10-19 17:47:37] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:47:37] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:47:43] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:47:43] [DEBUG] Raw model output: [
+  {"index": 0, "approved": true, "comments": "", "suggested_refinement": null},
+  {"index": 1, "approved": true, "comments": "", "suggested_refinement": null},
+  {"index": 2, "approved": true, "comments": "", "suggested_refinement": null},
+  {"index": 3, "approved": true, "comments": "", "suggested_refinement": null},
+  {"index": 4, "approved": true, "comments": "", "suggested_refinement": null}
+]...
+[2025-10-19 17:47:43] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:47:43] [DEBUG] Ollama API call attempt 1 for model gemma2:9b
+[2025-10-19 17:47:59] [DEBUG] Ollama API success for model gemma2:9b
+[2025-10-19 17:47:59] [DEBUG] Raw model output: [{"index": 0, "approved": true, "comments": "", "suggested_refinement": null}, {"index": 1, "approved": true, "comments": "", "suggested_refinement": null}, {"index": 2, "approved": true, "comments": "", "suggested_refinement": null}, {"index": 3, "approved": false, "comments": "Assumes a whole number of bottles are possible. Consider wording that allows for remainder.", "suggested_refinement": {"type": "Open-ended", "question": "A bottle contains 0.1 L of juice. How many bottles and how much ex...
+[2025-10-19 17:47:59] [DEBUG] Batch evaluation succeeded for gemma2:9b
+[2025-10-19 17:47:59] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:48:07] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:48:07] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": false,
+    "comments": "Too specific and assumes a car's fuel efficiency",
+    "suggested_refinement": null
+  },
+  {
+    "index": 1,
+    "approved": true,
+    "comments": "",
+    "suggested_refinement": null
+  },
+  {
+    "index": 2,
+    "approved": false,
+    "comments": "Asks for explanation, which is not suitable for a multiple-choice or open-ended question",
+    "suggested_refinement": {
+      "type": "Open-ended",
+      "question": "What happens to the d...
+[2025-10-19 17:48:07] [DEBUG] Batch evaluation succeeded for llama3.1:8b
+[2025-10-19 17:48:07] [DEBUG] Ollama API call attempt 1 for model mistral:7b
+[2025-10-19 17:48:15] [DEBUG] Ollama API success for model mistral:7b
+[2025-10-19 17:48:15] [DEBUG] Raw model output: [
+  {
+    "index": 0,
+    "approved": true,
+    "comments": "Correct calculation of fuel consumption for a given distance.",
+    "suggested_refinement": null
+  },
+  {
+    "index": 1,
+    "approved": true,
+    "comments": "Correct calculation of division between decimals.",
+    "suggested_refinement": null
+  },
+  {
+    "index": 2,
+    "approved": true,
+    "comments": "Correct explanation and answer for multiplication with decimal point adjustment.",
+    "suggested_refinement": null
+  },
+  {
+    ...
+[2025-10-19 17:48:15] [DEBUG] Batch evaluation succeeded for mistral:7b
+[2025-10-19 17:48:15] [DEBUG] Ollama API call attempt 1 for model llama3.1:8b
+[2025-10-19 17:48:39] [DEBUG] Ollama API success for model llama3.1:8b
+[2025-10-19 17:48:39] [DEBUG] Raw model output: [
+    {
+        "local_index":0,
+        "refined_question":{
+            "type":"MCQ",
+            "question":"What is 25 × 0.1?",
+            "options":["2.5","0.25","0.025","250"],
+            "answer":"2.5",
+            "difficulty":"Easy"
+        },
+        "refinement_comments":"Refined options to match the answer format."
+    },
+    {
+        "local_index":1,
+        "refined_question":{
+            "type":"MCQ",
+            "question":"A rope is 12 m long. If each piece is 0.1 m, how man...
+[2025-10-19 17:48:39] [WARNING] Primary refinement failed, falling back to individual critic suggestions
+[2025-10-19 17:48:39] [INFO] Applied critic suggestion to question 2
+[2025-10-19 17:48:39] [INFO] Applied critic suggestion to question 3
+[2025-10-19 17:48:39] [INFO] Applied critic suggestion to question 4
+[2025-10-19 17:48:39] [INFO] Applied critic suggestion to question 7
+[2025-10-19 17:48:39] [INFO] Applied critic suggestion to question 9
+[2025-10-19 17:48:39] [INFO] Applied critic suggestion to question 12
+[2025-10-19 17:48:39] [INFO] Applied critic suggestion to question 13
+[2025-10-19 17:48:39] [INFO] Applied critic suggestion to question 16
+[2025-10-19 17:48:39] [INFO] Applied critic suggestion to question 17
+[2025-10-19 17:48:39] [INFO] Applied critic suggestion to question 18
+[2025-10-19 17:48:39] [INFO] Applied critic suggestion to question 19
+[2025-10-19 17:48:39] [INFO] Applied critic suggestion to question 22
+[2025-10-19 17:48:39] [INFO] Applied critic suggestion to question 27
+[2025-10-19 17:48:39] [INFO] Applied critic suggestion to question 28
+[2025-10-19 17:48:39] [INFO] Saved refined JSON: Activities_Refined\Chapter 7 Quiz – Multiplying and Dividing by 0.1 and 0.01.json
+[2025-10-19 17:48:39] [INFO] Changes report saved: Activities_Refined\changes_report_Chapter 7 Quiz – Multiplying and Dividing by 0.1 and 0.01.json.txt
+[2025-10-19 17:48:39] [INFO] All activities processed.

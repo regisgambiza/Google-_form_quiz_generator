@@ -1,0 +1,110 @@
+{
+  "title": "Chapter 13: Calculations",
+  "description": "A 1-hour assessment covering order of operations and simplifying calculations with decimals and fractions.",
+  "questions": [
+    {
+      "answer": "119",
+      "difficulty": "Hard",
+      "question": "Evaluate the expression: 7 + 8 × (20 − 12 ÷ 2). Show all your working.",
+      "subtopic": "Order of operations",
+      "topic": "Calculations",
+      "type": "Numerical"
+    },
+    {
+      "answer": "(6 + 4) × (5 + 3) − 2 = 78",
+      "difficulty": "Hard",
+      "question": "Insert brackets to make the expression equal 78: 6 + 4 + 5 + 3 − 2.",
+      "subtopic": "Order of operations",
+      "topic": "Calculations",
+      "type": "Short Answer"
+    },
+    {
+      "answer": "3 × 4 × 5 × 6",
+      "difficulty": "Hard",
+      "question": "Write an expression using the numbers 3, 4, 5 and 6 (each once) that gives the largest possible value. Use +, −, ×, ÷ and brackets.",
+      "subtopic": "Order of operations",
+      "topic": "Calculations",
+      "type": "Short Answer"
+    },
+    {
+      "answer": "57",
+      "difficulty": "Hard",
+      "question": "Evaluate: 48 ÷ 6 × (3 + 5) − 7.",
+      "subtopic": "Order of operations",
+      "topic": "Calculations",
+      "type": "Numerical"
+    },
+    {
+      "answer": "Student A: 40; Student B: 20; Explanation: Student A calculated left-to-right giving 40 while Student B followed the order of operations for division and multiplication giving 20.",
+      "difficulty": "Hard",
+      "question": "Two students simplify the expression 20 ÷ 4 + 3 × 5. Student A works strictly left-to-right. Student B uses the order of operations. Give Student A's answer, Student B's correct answer, and explain why they differ.",
+      "subtopic": "Order of operations",
+      "topic": "Calculations",
+      "type": "Short Answer"
+    },
+    {
+      "answer": "3.65",
+      "difficulty": "Medium",
+      "question": "Calculate: 2.7 + 1.85 − 0.9. Show all steps.",
+      "subtopic": "Simplifying calculations with decimals and fractions",
+      "topic": "Calculations",
+      "type": "Numerical"
+    },
+    {
+      "answer": "0.16",
+      "difficulty": "Medium",
+      "question": "Calculate: 0.64 × 0.25.",
+      "subtopic": "Simplifying calculations with decimals and fractions",
+      "topic": "Calculations",
+      "type": "Numerical"
+    },
+    {
+      "answer": "4 × 1.85 + 6 × 0.65 = 7.40 + 3.90 = 11.30; Total = $11.30",
+      "difficulty": "Medium",
+      "question": "A customer buys 4 muffins at $1.85 each and 6 cookies at $0.65 each. Write a simplified calculation using grouping or reordering and find the total cost.",
+      "subtopic": "Simplifying calculations with decimals and fractions",
+      "topic": "Calculations",
+      "type": "Short Answer"
+    },
+    {
+      "answer": "1/2",
+      "difficulty": "Easy",
+      "question": "Simplify: 6/12.",
+      "subtopic": "Simplifying calculations with decimals and fractions",
+      "topic": "Calculations",
+      "type": "Numerical"
+    },
+    {
+      "answer": "1/3",
+      "difficulty": "Easy",
+      "question": "Simplify: 14/42.",
+      "subtopic": "Simplifying calculations with decimals and fractions",
+      "topic": "Calculations",
+      "type": "Numerical"
+    },
+    {
+      "answer": "3/4",
+      "difficulty": "Easy",
+      "question": "Simplify: 45/60.",
+      "subtopic": "Simplifying calculations with decimals and fractions",
+      "topic": "Calculations",
+      "type": "Numerical"
+    },
+    {
+      "answer": "5/4",
+      "difficulty": "Medium",
+      "question": "Calculate: 3/4 + 5/6 − 1/3.",
+      "subtopic": "Simplifying calculations with decimals and fractions",
+      "topic": "Calculations",
+      "type": "Numerical"
+    },
+    {
+      "answer": "800",
+      "difficulty": "Medium",
+      "question": "Simplify the expression 8 × 37 + 8 × 63 using an efficient method and explain your reasoning.",
+      "subtopic": "Simplifying calculations with decimals and fractions",
+      "topic": "Calculations",
+      "type": "Short Answer"
+    }
+  ]
+}

@@ -49,12 +49,14 @@ def create_google_form(title, description, questions):
         service.forms().batchUpdate(formId=form_id, body={"requests": [title_update_request]}).execute()
         log("DEBUG", "[EXPORT] Form title updated successfully")
 
-        # Update description and enable quiz mode
+                # Update description and enable quiz mode
         log("DEBUG", "[EXPORT] Updating form description and quiz settings")
         update_requests = [
             {
                 "updateFormInfo": {
-                    "info": {"description": description},
+                    "info": {
+                        "description": description
+                    },
                     "updateMask": "description"
                 }
             },
@@ -62,13 +64,18 @@ def create_google_form(title, description, questions):
                 "updateSettings": {
                     "settings": {
                         "quizSettings": {
-                            "isQuiz": True
-                        }
+                            "isQuiz": True,
+                        },
+                        "emailCollectionType": "VERIFIED"
                     },
-                    "updateMask": "quizSettings.isQuiz"
+                    "updateMask": "quizSettings.isQuiz,emailCollectionType"
                 }
             }
         ]
+
+        service.forms().batchUpdate(formId=form_id, body={"requests": update_requests}).execute()
+        log("DEBUG", "[EXPORT] Form description and quiz settings updated successfully")
+
         service.forms().batchUpdate(formId=form_id, body={"requests": update_requests}).execute()
         log("DEBUG", "[EXPORT] Form description and quiz settings updated successfully")
 
